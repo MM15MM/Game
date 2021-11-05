@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 8609085111971310137}
   - component: {fileID: 3160107633145832481}
   - component: {fileID: 54818592}
-  - component: {fileID: 54818591}
   - component: {fileID: 54818590}
   - component: {fileID: 8771884112124004029}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullets
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,38 +100,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!61 &54818591
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3800863996297642012}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.044805884, y: -0.016237617}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 0.5, y: 0.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15006948, y: 0.13328385}
-  m_EdgeRadius: 0
 --- !u!114 &54818590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,7 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed98518d70c11814eaf52b999215ef6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: -10
 --- !u!58 &8771884112124004029
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -156,7 +128,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.026744723, y: -0.010133386}

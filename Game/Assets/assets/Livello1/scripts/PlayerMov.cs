@@ -4,7 +4,14 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 public class PlayerMov : MonoBehaviour
 {
-	public GameObject BulletPrefab;
+	public Rigidbody2D bullet;
+
+	[SerializeField]
+	public Transform bulletPos;
+
+	[SerializeField]
+	float bulletSpeed = 500f;
+
 	public CharacterController2D controller;
 
 	public float Speed = 40f;
@@ -15,6 +22,8 @@ public class PlayerMov : MonoBehaviour
 
 	Vector3 localScale;
 	private Rigidbody2D rb;
+
+	
 	void Start()
 	{
 		localScale = transform.localScale;
@@ -53,11 +62,8 @@ public class PlayerMov : MonoBehaviour
 	private void Shooting()
 	{
 		anim.SetBool("Shoot", true);
-		Vector3 dir;
-		if (transform.localScale.x == 1.0f) dir = Vector2.right;
-		else dir = Vector2.left;
-		GameObject bullet = Instantiate(BulletPrefab, transform.position + dir * 0.1f, Quaternion.identity);
-		bullet.GetComponent<BulletScript>().SetDirection(dir);
+		var FiredBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
+		FiredBullet.AddForce(bulletPos.up * bulletSpeed);
     }
 	void FixedUpdate()
 	{
