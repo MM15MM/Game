@@ -32,7 +32,12 @@ public class PlayerMovement : MonoBehaviour
         position.y = position.y + 1.5f * speed * vertical * Time.deltaTime;
         transform.position = position;
 
-        anim.SetFloat("MoveX", speed * horizontal);
-        anim.SetFloat("MoveY", speed * vertical);
+        if (horizontal < 0) body.transform.localScale = new Vector3 (-1, 1, 1);
+        else body.transform.localScale = new Vector3 (1, 1, 1);
+
+        anim.SetFloat("isMoving", Mathf.Abs(speed * horizontal));
+
+        anim.SetBool("isJumping", Mathf.Abs(vertical)>0);
+        
     }
 }
