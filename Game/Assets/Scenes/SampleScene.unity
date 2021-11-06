@@ -5267,7 +5267,7 @@ MonoBehaviour:
   mainCam: {fileID: 519420032}
   middleBG: {fileID: 896454674}
   sideBG: {fileID: 1580721923}
-  length: 22.399858
+  length: 33.6
 --- !u!4 &929851441
 Transform:
   m_ObjectHideFlags: 0
