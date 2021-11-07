@@ -12,10 +12,13 @@ public class PlayerMov : MonoBehaviour
 	[SerializeField]
 	float bulletSpeed = 500f;
 
+
 	public CharacterController2D controller;
 
 	public float Speed = 40f;
 	public Animator anim;
+
+	bool shoot = false;
 
 	float horizontalMove = 0f;
 	bool jump = false;
@@ -46,14 +49,17 @@ public class PlayerMov : MonoBehaviour
 
 		if (CrossPlatformInputManager.GetButtonDown("Fire1"))
 		{
-			Shooting();
+			anim.SetBool("Shoot", true);
+			Invoke("Shooting", 0.25f);
 		}
+
 		
-		if(CrossPlatformInputManager.GetButtonUp("Fire1"))
-		{
+		if (CrossPlatformInputManager.GetButtonUp("Fire1"))
+        {
 			anim.SetBool("Shoot", false);
 		}
 	}
+
 	public void OnLanding()
     {
 		anim.SetBool("Jump", false);
@@ -61,7 +67,7 @@ public class PlayerMov : MonoBehaviour
 
 	private void Shooting()
 	{
-		anim.SetBool("Shoot", true);
+		
 		var FiredBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
 		FiredBullet.AddForce(bulletPos.up * bulletSpeed);
     }
