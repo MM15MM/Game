@@ -38,12 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Sfondo
-    uniqueID: 325577391
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Mappa
-    uniqueID: 690949391
     locked: 0
