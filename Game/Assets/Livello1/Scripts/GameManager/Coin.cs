@@ -8,8 +8,10 @@ public class Coin : MonoBehaviour
     {
         if(collision.transform.tag == "Player")
         {
+            ScoreScript.score++;
             Manager.numberOfCoins++;  // number of coins increases by one whenever Cassandra picks up a coin
             AudioManager.instance.Play("Coin");
+            //PlayerPrefs.SetInt("NumberOfCoins", Manager.numberOfCoins);
             Destroy(gameObject);
            
         }

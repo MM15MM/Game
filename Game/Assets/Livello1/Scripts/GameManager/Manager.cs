@@ -12,9 +12,15 @@ public class Manager : MonoBehaviour
     public static bool gameOver;
     public GameObject gameOverScreen;
 
+    public static int scorePoints;
+
+ 
+
 
     private void Awake()
     {
+        //numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
+        //scorePoints = PlayerPrefs.GetInt("PlayerScore", 0);
         gameOver = false;
     }
 
@@ -50,6 +56,5 @@ public class Manager : MonoBehaviour
     public void ReplayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        numberOfCoins = 0;
     }
 }

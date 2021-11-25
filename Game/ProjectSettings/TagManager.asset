@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullets
   - Enemy
+  - Coins
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - Knight
-  - 
+  - Enemy
+  - Traps
   - 
   - 
   - 

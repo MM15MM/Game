@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,8 +17,12 @@ public class PlayerController : MonoBehaviour
 	private bool m_FacingRight = true;   // Which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	private int availableJumps;
+	public int totalJumps;
+
+
 	[Header("Events")]
-	[Space]
+
 
 	public UnityEvent OnLandEvent;
 
@@ -26,7 +31,8 @@ public class PlayerController : MonoBehaviour
 
 	private void Awake()
 	{
-		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+		availableJumps = totalJumps;
+        m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
@@ -45,11 +51,16 @@ public class PlayerController : MonoBehaviour
 			if (colliders[i].gameObject != gameObject)
 			{
 				m_Grounded = true;
+				
 				if (!wasGrounded)
+				{
 					OnLandEvent.Invoke();
+				}
+
 			}
 		}
-	}
+		
+}
 
 
 	public void Move(float move, bool jump)
@@ -74,17 +85,34 @@ public class PlayerController : MonoBehaviour
 				Flip();
 			}
 		}
-		// If the player should jump...
-		if (m_Grounded && jump)
-		{
+
+		if(m_Grounded == true)
+        {
+			availableJumps = totalJumps;
+        }
+			if (jump && availableJumps > 0)
+			{
 			// Add a vertical force to the player.
-			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+	    	availableJumps--;
+			m_Grounded = false;
 		}
-	}
+			else
+		   if ( jump && availableJumps == 0 && m_Grounded == true)
+		    {
+			// Add a vertical force to the player.
+			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			m_Grounded = false;
+			}
+
+			// Add a vertical force to the player.
+			//m_Grounded = false;
+			//m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+		}
 
 
-	private void Flip()
+	
+private void Flip()
 	{
 		// Switch the way Cassandra is labelled as facing.
 		m_FacingRight = !m_FacingRight;

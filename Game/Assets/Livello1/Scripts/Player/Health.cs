@@ -35,10 +35,11 @@ public class Health : MonoBehaviour
                 if (GetComponent<PlayerMov>() != null)
                 {
                     GetComponent<PlayerMov>().enabled = false;
+                    dead = true;
 
                     //Game Over
                     Manager.gameOver = true;
-                    gameObject.SetActive(false);
+                    Destroy(gameObject, 2f);
                     AudioManager.instance.Play("Game Over");
                 }
                 //Knight
@@ -47,10 +48,11 @@ public class Health : MonoBehaviour
                     GetComponentInParent<EnemyBehaviour>().enabled = false;
                     if (GetComponent<EnemyAttack>() != null)
                         GetComponent<EnemyAttack>().enabled = false;
-                    Destroy(gameObject);
-                        
+                       dead = true;
+                    Destroy(gameObject, 1f);
+
                 }
-                    dead = true;
+                    
             }
 
         }

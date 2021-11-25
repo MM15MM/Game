@@ -8,8 +8,8 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] private Transform LeftEdge;
     [SerializeField] private Transform RightEdge;
 
-    
-    [SerializeField] private Transform Knight;
+    //enemy
+    [SerializeField] private Transform enemy;
 
     //walk 
     [SerializeField] private float Speed;
@@ -20,12 +20,14 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] private float IdleDuration;
     private float IdleTimer;
 
-    
+
+   //animator
+
     [SerializeField] private Animator anim;
 
     private void Awake()
     {
-        initScale = Knight.localScale;
+        initScale = enemy.localScale;
     }
     private void OnDisable()
     {
@@ -36,14 +38,14 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (LeftMovement)
         {
-            if (Knight.position.x >= LeftEdge.position.x)
+            if (enemy.position.x >= LeftEdge.position.x)
                 MoveInDirection(-1);
             else
                  FlipDirection();
         }
         else
         {
-            if (Knight.position.x <= RightEdge.position.x)
+            if (enemy.position.x <= RightEdge.position.x)
                 MoveInDirection(1);
             else
                 FlipDirection();
@@ -65,10 +67,12 @@ public class EnemyBehaviour : MonoBehaviour
         anim.SetBool("Walking", true);
 
         //Flip Knight direction
-        Knight.localScale = new Vector3(Mathf.Abs(initScale.x) * dir, initScale.y, initScale.z);
+        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * dir, initScale.y, initScale.z);
 
         //enemy is moving in that direction
-        Knight.position = new Vector3(Knight.position.x + Time.deltaTime * dir * Speed,
-            Knight.position.y, Knight.position.z);
+        enemy.position = new Vector3(enemy.position.x + Time.deltaTime * dir * Speed,
+            enemy.position.y, enemy.position.z);
+
     }
+
 }
