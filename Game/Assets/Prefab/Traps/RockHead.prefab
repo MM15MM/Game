@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 313972026462629025}
   - component: {fileID: 1074689380128584359}
   - component: {fileID: 5037678982167744943}
+  - component: {fileID: 3289604494653851383}
   m_Layer: 0
   m_Name: RockHead
   m_TagString: Untagged
@@ -146,3 +147,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   distance: 4.5
+--- !u!95 &3289604494653851383
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367966797084950809}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96ef4274c0a017e48a84a2278632755e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
