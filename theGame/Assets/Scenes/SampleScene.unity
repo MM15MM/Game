@@ -3774,8 +3774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: Horizontal
   axisValue: -1
-  responseSpeed: 1000
-  returnToCentreSpeed: 1000
+  responseSpeed: 1e+25
+  returnToCentreSpeed: 1e+25
 --- !u!114 &435661201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10840,8 +10840,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: Horizontal
   axisValue: 1
-  responseSpeed: 1000
-  returnToCentreSpeed: 1000
+  responseSpeed: 1e+25
+  returnToCentreSpeed: 1e+25
 --- !u!114 &1492446032
 MonoBehaviour:
   m_ObjectHideFlags: 0
