@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace ClearSky
 {
@@ -27,8 +28,8 @@ namespace ClearSky
             Restart();
             if (alive)
             {
-                Hurt();
-                Die();
+                //Hurt();
+                //Die();
                 Attack();
                 Jump();
                 Run();
@@ -47,7 +48,7 @@ namespace ClearSky
             anim.SetBool("isRun", false);
 
 
-            if (Input.GetAxisRaw("Horizontal") < 0)
+            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") < 0)
             {
                 direction = -1;
                 moveVelocity = Vector3.left;
@@ -57,7 +58,7 @@ namespace ClearSky
                     anim.SetBool("isRun", true);
 
             }
-            if (Input.GetAxisRaw("Horizontal") > 0)
+            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0)
             {
                 direction = 1;
                 moveVelocity = Vector3.right;
@@ -71,7 +72,7 @@ namespace ClearSky
         }
         void Jump()
         {
-            if ((Input.GetButtonDown("Jump") || Input.GetAxisRaw("Vertical") > 0)
+            if ((CrossPlatformInputManager.GetButtonDown("Jump") || CrossPlatformInputManager.GetAxisRaw("Vertical") > 0)
             && !anim.GetBool("isJump"))
             {
                 isJumping = true;
@@ -91,14 +92,14 @@ namespace ClearSky
         }
         void Attack()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (CrossPlatformInputManager.GetButtonDown("Fire"))
             {
                 anim.SetTrigger("attack");
             }
         }
-        void Hurt()
+        /* void Hurt()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (CrossPlatformInputManager.GetButtonDown(KeyCode.Alpha2))
             {
                 anim.SetTrigger("hurt");
                 if (direction == 1)
@@ -114,7 +115,7 @@ namespace ClearSky
                 anim.SetTrigger("die");
                 alive = false;
             }
-        }
+        } */
         void Restart()
         {
             if (Input.GetKeyDown(KeyCode.Alpha0))
