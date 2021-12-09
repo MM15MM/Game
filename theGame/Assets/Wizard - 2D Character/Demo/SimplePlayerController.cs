@@ -7,8 +7,11 @@ namespace ClearSky
     {
         public float movePower = 10f;
         public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
+        public float bulletSpeed = 20f;
 
         private Rigidbody2D rb;
+        public Rigidbody2D bullet;
+        public Transform bulletDimensions;
         private Animator anim;
         Vector3 movement;
         private int direction = 1;
@@ -20,6 +23,7 @@ namespace ClearSky
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            bullet = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
         }
 
@@ -95,6 +99,8 @@ namespace ClearSky
             if (CrossPlatformInputManager.GetButtonDown("Fire"))
             {
                 anim.SetTrigger("attack");
+                var FiredBullet = Instantiate(bullet, bulletDimensions.position, bulletDimensions.rotation);
+                FiredBullet.AddForce(bulletDimensions.right * bulletSpeed);
             }
         }
         /* void Hurt()
