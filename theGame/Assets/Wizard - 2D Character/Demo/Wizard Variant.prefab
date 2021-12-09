@@ -79,7 +79,7 @@ MonoBehaviour:
   jumpPower: 15
   bulletSpeed: 20
   bullet: {fileID: 3001869937291807088, guid: 52f290064adb0ca4182293a2e40c06ab, type: 3}
-  bulletDimensions: {fileID: 2025603512210557353}
+  bulletDimensions: {fileID: 0}
 --- !u!114 &794697844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,36 +92,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25edea5f4d77c74d828874c56cf37e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &7453004790970748795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2025603512210557353}
-  m_Layer: 0
-  m_Name: BulletDimensions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2025603512210557353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7453004790970748795}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 884190595543160675}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4766213055819134540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,12 +459,6 @@ PrefabInstance:
 --- !u!1 &8853461538655865705 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4105362945620786469, guid: ebea5f8b8163f9a4ab9d9a1b45444e28,
-    type: 3}
-  m_PrefabInstance: {fileID: 4766213055819134540}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &884190595543160675 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5648001209294577967, guid: ebea5f8b8163f9a4ab9d9a1b45444e28,
     type: 3}
   m_PrefabInstance: {fileID: 4766213055819134540}
   m_PrefabAsset: {fileID: 0}

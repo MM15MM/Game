@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletDestroy : MonoBehaviour
 {
-    float destroyTime = 2f;
+    float destroyTime = 5f;
     // Start is called before the first frame update
     void Start()
     {
