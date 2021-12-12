@@ -12,6 +12,7 @@ namespace ClearSky
         private Rigidbody2D rb;
         public Rigidbody2D bullet;
         public Transform bulletDimensions;
+        private bool isRight = true;
         private Animator anim;
         Vector3 movement;
         private int direction = 1;
@@ -50,10 +51,11 @@ namespace ClearSky
             Vector3 moveVelocity = Vector3.zero;
             anim.SetBool("isRun", false);
 
-
             if (CrossPlatformInputManager.GetAxisRaw("Horizontal") < 0)
             {
-                direction = -1;
+                if (isRight) { transform.Rotate(0f, 180f, 0f); }
+
+                isRight = false;
                 moveVelocity = Vector3.left;
 
                 transform.localScale = new Vector3(direction, 1, 1);
@@ -63,7 +65,10 @@ namespace ClearSky
             }
             if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0)
             {
-                direction = 1;
+                if (!isRight) { transform.Rotate(0f, 180f, 0f); }
+
+                isRight = true;
+                
                 moveVelocity = Vector3.right;
 
                 transform.localScale = new Vector3(direction, 1, 1);

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3001869937291807095}
   - component: {fileID: 3001869937291807091}
   m_Layer: 0
-  m_Name: Proiettile
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &3001869937291807095
 CapsuleCollider2D:
