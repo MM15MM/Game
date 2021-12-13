@@ -9,7 +9,7 @@ public class BulletDestroy : MonoBehaviour
     float destroyTime = 5f;
 
     // Start is called before the first frame update
-    public void Start()
+    void Start()
     {
         bullet.velocity = transform.right * bulletSpeed;
         Destroy(gameObject, destroyTime);
