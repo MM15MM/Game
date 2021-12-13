@@ -5,18 +5,22 @@ namespace ClearSky
 {
     public class SimplePlayerController : MonoBehaviour
     {
-        public float movePower = 10f;
-        public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
-        public float bulletSpeed = 15f;
 
         private Rigidbody2D rb;
-        public Rigidbody2D bullet;
-        public Transform bulletDimensions;
-        private bool isRight = true;
         private Animator anim;
+
         Vector3 movement;
+        public float movePower = 10f;
+
         private int direction = 1;
+        private bool isRight = true;
+
         bool isJumping = false;
+        public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
+
+        public GameObject bullet;
+        public Transform bulletDimensions;
+
         private bool alive = true;
 
 
@@ -103,8 +107,8 @@ namespace ClearSky
             if (CrossPlatformInputManager.GetButtonDown("Fire1"))
             {
                 anim.SetTrigger("attack");
-                var FiredBullet = Instantiate(bullet, bulletDimensions.position, bulletDimensions.rotation);
-                FiredBullet.AddForce(bulletDimensions.right * bulletSpeed);
+                Instantiate(bullet, bulletDimensions.position, bulletDimensions.rotation);
+                //FiredBullet.AddForce(bulletDimensions.right * bulletSpeed);
             }
         }
         /* void Hurt()
