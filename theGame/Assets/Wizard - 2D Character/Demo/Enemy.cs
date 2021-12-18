@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            Destroy(gameObject);
         }
         deathAnim.SetBool("Hurt", false);
     }
@@ -22,6 +23,5 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         deathAnim.SetBool("isDead", true);
-        Destroy(gameObject);
     }
 }
