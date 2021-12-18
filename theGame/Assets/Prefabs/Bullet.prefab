@@ -49,6 +49,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -773789919
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -2664951198141621222, guid: 4582c98c657e4b842b5a1c44491919b4,
     type: 3}
@@ -136,3 +137,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3001869937291807088}
   bulletSpeed: 15
+  damage: 5

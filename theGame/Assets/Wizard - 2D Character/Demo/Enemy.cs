@@ -7,12 +7,11 @@ public class Enemy : MonoBehaviour
 {
     public int health = 15;
     public Animator deathAnim;
-    public int damage = 3;
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
         deathAnim.SetBool("Hurt", true);
+        health -= damage;
         if (health <= 0)
         {
             Die();
