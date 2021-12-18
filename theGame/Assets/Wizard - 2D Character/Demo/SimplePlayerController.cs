@@ -18,10 +18,12 @@ namespace ClearSky
         bool isJumping = false;
         public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
 
-        public GameObject bullet;
-        public Transform bulletDimensions;
-
         private bool alive = true;
+
+        public GameObject bullet;
+        public Rigidbody2D bulletBody;
+        public Transform bulletDimensions;
+        public float bulletSpeed = 15f;
 
 
         // Start is called before the first frame update
@@ -107,9 +109,13 @@ namespace ClearSky
             if (CrossPlatformInputManager.GetButtonDown("Fire1"))
             {
                 anim.SetTrigger("attack");
-                Instantiate(bullet, bulletDimensions.position, bulletDimensions.rotation);
-                //FiredBullet.AddForce(bulletDimensions.right * bulletSpeed);
+                Invoke("Shooting", 0.5f);
             }
+        }
+        private void Shooting()
+        {
+            Rigidbody2D instance = Instantiate(bulletBody, bulletDimensions.position, bulletDimensions.rotation);
+            instance.velocity = transform.right * bulletSpeed;
         }
         /* void Hurt()
         {

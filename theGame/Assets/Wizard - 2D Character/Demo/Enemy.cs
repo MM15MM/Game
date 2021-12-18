@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour
     public int health = 15;
     public Animator deathAnim;
 
+    void Update()
+    {
+
+    }
     public void TakeDamage(int damage)
     {
         deathAnim.SetBool("Hurt", true);
