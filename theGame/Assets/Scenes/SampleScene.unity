@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 2105037084}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -221,6 +223,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -330,6 +333,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -718,6 +722,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -813,6 +818,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -929,6 +935,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1044,7 +1051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127431434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005694449, y: -0.4000001, z: -1.1}
+  m_LocalPosition: {x: -0.0012739301, y: -0.4000001, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1262991913}
@@ -1130,6 +1137,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1212,6 +1220,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1315,6 +1324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1345,6 +1355,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 155830003}
+        m_TargetAssemblyTypeName: 
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -1370,6 +1381,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1411,6 +1423,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 155829999}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetDownState
           m_Mode: 1
           m_Arguments:
@@ -1426,6 +1439,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 155829999}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetUpState
           m_Mode: 1
           m_Arguments:
@@ -1509,6 +1523,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1578,6 +1593,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1755,6 +1771,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1864,6 +1881,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1946,6 +1964,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2082,6 +2101,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2195,6 +2215,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2304,6 +2325,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2386,6 +2408,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2522,6 +2545,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2631,6 +2655,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2740,6 +2765,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2849,6 +2875,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2952,6 +2979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2996,6 +3024,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3036,6 +3065,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 356943652}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetDownState
           m_Mode: 1
           m_Arguments:
@@ -3051,6 +3081,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 356943652}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetUpState
           m_Mode: 1
           m_Arguments:
@@ -3134,6 +3165,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3216,6 +3248,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3301,6 +3334,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3410,6 +3444,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3519,6 +3554,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3628,6 +3664,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3710,6 +3747,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3815,6 +3853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3859,6 +3898,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3955,6 +3995,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4064,6 +4105,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4173,6 +4215,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4282,6 +4325,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4395,6 +4439,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4543,7 +4588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.005694449, y: -0.4000001, z: -1.1}
+  m_LocalPosition: {x: -0.0012739301, y: -0.4000001, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4662,6 +4707,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4797,6 +4843,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4892,6 +4939,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5022,6 +5070,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5105,6 +5154,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5240,6 +5290,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5349,6 +5400,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5462,6 +5514,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5577,6 +5630,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5686,6 +5740,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5795,6 +5850,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5879,6 +5935,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6040,6 +6097,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6122,6 +6180,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6231,6 +6290,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6340,6 +6400,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6449,6 +6510,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6558,6 +6620,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6694,6 +6757,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6803,6 +6867,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6912,6 +6977,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6995,6 +7061,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7130,6 +7197,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7212,6 +7280,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7321,6 +7390,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7460,6 +7530,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7496,6 +7567,646 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &936369153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936369159}
+  - component: {fileID: 936369158}
+  - component: {fileID: 936369157}
+  - component: {fileID: 936369156}
+  - component: {fileID: 936369155}
+  - component: {fileID: 936369154}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &936369154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4325f7f3479944ca99517bed69bb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 15
+  deathAnim: {fileID: 936369155}
+--- !u!95 &936369155
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9369d8c69c216ff498a2a1cd9f696080, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &936369156
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 8}
+    newSize: {x: 8, y: 8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.78400004, y: -2.364}
+      - {x: 0.82800007, y: -2.364}
+      - {x: 0.984, y: -2.3560002}
+      - {x: 1, y: -2.344}
+      - {x: 1.088, y: -2.256}
+      - {x: 1.128, y: -2.2440002}
+      - {x: 1.156, y: -2.2080002}
+      - {x: 1.172, y: -2.1680002}
+      - {x: 1.172, y: -2.104}
+      - {x: 1.2240001, y: -2.144}
+      - {x: 1.2880001, y: -2.1720002}
+      - {x: 1.2880001, y: -2.2800002}
+      - {x: 1.296, y: -2.292}
+      - {x: 1.3520001, y: -2.3240001}
+      - {x: 1.4840001, y: -2.328}
+      - {x: 1.5120001, y: -2.3400002}
+      - {x: 1.5480001, y: -2.348}
+      - {x: 1.636, y: -2.348}
+      - {x: 1.9120001, y: -2.3360002}
+      - {x: 1.932, y: -2.328}
+      - {x: 1.932, y: -2.312}
+      - {x: 1.904, y: -2.2800002}
+      - {x: 1.7440001, y: -2.18}
+      - {x: 1.728, y: -2.176}
+      - {x: 1.6520001, y: -2.184}
+      - {x: 1.6200001, y: -2.1360002}
+      - {x: 1.756, y: -2.1320002}
+      - {x: 1.7600001, y: -2.1200001}
+      - {x: 1.764, y: -2.1000001}
+      - {x: 1.664, y: -2.02}
+      - {x: 1.6200001, y: -1.9920001}
+      - {x: 1.5480001, y: -1.9640001}
+      - {x: 1.516, y: -1.9560001}
+      - {x: 1.4720001, y: -1.9480001}
+      - {x: 1.4640001, y: -1.7400001}
+      - {x: 1.4480001, y: -1.7240001}
+      - {x: 1.376, y: -1.6840001}
+      - {x: 1.3000001, y: -1.6480001}
+      - {x: 1.3280001, y: -1.6400001}
+      - {x: 1.4080001, y: -1.5960001}
+      - {x: 1.4080001, y: -1.572}
+      - {x: 1.368, y: -1.552}
+      - {x: 1.0840001, y: -1.4640001}
+      - {x: 1.1120001, y: -1.4440001}
+      - {x: 1.116, y: -1.404}
+      - {x: 1.1, y: -1.3840001}
+      - {x: 1.1240001, y: -1.36}
+      - {x: 1.12, y: -1.3360001}
+      - {x: 1.108, y: -1.3160001}
+      - {x: 1.0960001, y: -1.2880001}
+      - {x: 1.1, y: -1.264}
+      - {x: 1.064, y: -1.228}
+      - {x: 1.072, y: -1.2080001}
+      - {x: 1.092, y: -1.176}
+      - {x: 1.0680001, y: -1.136}
+      - {x: 0.99600005, y: -1.056}
+      - {x: 0.96400005, y: -1.0320001}
+      - {x: 0.92, y: -1.044}
+      - {x: 0.924, y: -1.0680001}
+      - {x: 0.86, y: -1.028}
+      - {x: 0.82400006, y: -1.044}
+      - {x: 0.8, y: -1.0760001}
+      - {x: 0.768, y: -1.0320001}
+      - {x: 0.81600004, y: -0.99600005}
+      - {x: 0.86800003, y: -0.952}
+      - {x: 0.88400006, y: -0.96400005}
+      - {x: 0.91600007, y: -0.98}
+      - {x: 0.95600003, y: -0.98}
+      - {x: 1.0200001, y: -0.96400005}
+      - {x: 1.1600001, y: -0.924}
+      - {x: 1.2080001, y: -0.892}
+      - {x: 1.228, y: -0.87200004}
+      - {x: 1.2600001, y: -0.836}
+      - {x: 1.3240001, y: -0.81600004}
+      - {x: 1.3840001, y: -0.78800005}
+      - {x: 1.5000001, y: -0.712}
+      - {x: 1.544, y: -0.66}
+      - {x: 1.536, y: -0.63600004}
+      - {x: 1.6120001, y: -0.564}
+      - {x: 1.6680001, y: -0.504}
+      - {x: 1.728, y: -0.45200002}
+      - {x: 1.792, y: -0.36400002}
+      - {x: 1.84, y: -0.24400002}
+      - {x: 1.8840001, y: -0.16000001}
+      - {x: 1.968, y: -0.120000005}
+      - {x: 2.0240002, y: -0.040000003}
+      - {x: 2.0240002, y: -0.016}
+      - {x: 2.02, y: 0.056}
+      - {x: 2.0240002, y: 0.09200001}
+      - {x: 2.1000001, y: 0.16800001}
+      - {x: 2.124, y: 0.23600002}
+      - {x: 2.128, y: 0.268}
+      - {x: 2.124, y: 0.316}
+      - {x: 2.18, y: 0.39200002}
+      - {x: 2.1880002, y: 0.40800002}
+      - {x: 2.184, y: 0.448}
+      - {x: 2.1880002, y: 0.48400003}
+      - {x: 2.22, y: 0.504}
+      - {x: 2.2440002, y: 0.55600005}
+      - {x: 2.232, y: 0.63600004}
+      - {x: 2.196, y: 0.67200005}
+      - {x: 2.2240002, y: 0.716}
+      - {x: 2.2240002, y: 0.768}
+      - {x: 2.204, y: 0.82000005}
+      - {x: 2.16, y: 0.85600007}
+      - {x: 2.16, y: 0.92}
+      - {x: 2.14, y: 0.96000004}
+      - {x: 2.0760002, y: 1.016}
+      - {x: 2.0240002, y: 1.0120001}
+      - {x: 2.02, y: 1.056}
+      - {x: 1.9560001, y: 1.12}
+      - {x: 1.9120001, y: 1.1320001}
+      - {x: 1.868, y: 1.12}
+      - {x: 1.868, y: 1.156}
+      - {x: 1.8560001, y: 1.184}
+      - {x: 1.84, y: 1.2080001}
+      - {x: 1.7760001, y: 1.2440001}
+      - {x: 1.7400001, y: 1.256}
+      - {x: 1.6960001, y: 1.332}
+      - {x: 1.6760001, y: 1.3520001}
+      - {x: 1.6400001, y: 1.3640001}
+      - {x: 1.644, y: 1.3920001}
+      - {x: 1.6200001, y: 1.46}
+      - {x: 1.5920001, y: 1.5000001}
+      - {x: 1.616, y: 1.6040001}
+      - {x: 1.6800001, y: 1.6800001}
+      - {x: 1.692, y: 1.7080001}
+      - {x: 1.728, y: 1.7080001}
+      - {x: 1.8000001, y: 1.7720001}
+      - {x: 1.8280001, y: 1.7800001}
+      - {x: 1.9000001, y: 1.7800001}
+      - {x: 1.9760001, y: 1.7880001}
+      - {x: 2.048, y: 1.7720001}
+      - {x: 2.0960002, y: 1.7760001}
+      - {x: 2.144, y: 1.748}
+      - {x: 2.204, y: 1.72}
+      - {x: 2.272, y: 1.644}
+      - {x: 2.312, y: 1.6240001}
+      - {x: 2.3600001, y: 1.5280001}
+      - {x: 2.368, y: 1.4920001}
+      - {x: 2.384, y: 1.424}
+      - {x: 2.404, y: 1.388}
+      - {x: 2.388, y: 1.36}
+      - {x: 2.388, y: 1.268}
+      - {x: 2.3960001, y: 1.248}
+      - {x: 2.388, y: 1.212}
+      - {x: 2.3720002, y: 1.1600001}
+      - {x: 2.3760002, y: 1.1040001}
+      - {x: 2.388, y: 1.072}
+      - {x: 2.348, y: 1.0200001}
+      - {x: 2.3360002, y: 0.984}
+      - {x: 2.3400002, y: 0.896}
+      - {x: 2.388, y: 0.85600007}
+      - {x: 2.424, y: 0.84800005}
+      - {x: 2.3720002, y: 0.79600006}
+      - {x: 2.364, y: 0.78400004}
+      - {x: 2.3720002, y: 0.70000005}
+      - {x: 2.3920002, y: 0.66}
+      - {x: 2.4480002, y: 0.624}
+      - {x: 2.48, y: 0.592}
+      - {x: 2.48, y: 0.54}
+      - {x: 2.4520001, y: 0.564}
+      - {x: 2.436, y: 0.60800004}
+      - {x: 2.4120002, y: 0.60400003}
+      - {x: 2.388, y: 0.564}
+      - {x: 2.3960001, y: 0.45200002}
+      - {x: 2.424, y: 0.356}
+      - {x: 2.456, y: 0.30800003}
+      - {x: 2.4720001, y: 0.28800002}
+      - {x: 2.5760002, y: 0.18800001}
+      - {x: 2.6880002, y: 0.1}
+      - {x: 2.7480001, y: 0.056}
+      - {x: 2.788, y: 0.040000003}
+      - {x: 2.808, y: 0.080000006}
+      - {x: 2.8240001, y: 0.284}
+      - {x: 2.8240001, y: 0.46}
+      - {x: 2.808, y: 0.54}
+      - {x: 2.776, y: 0.62}
+      - {x: 2.6920002, y: 0.72800004}
+      - {x: 2.664, y: 0.712}
+      - {x: 2.6680002, y: 0.69200003}
+      - {x: 2.664, y: 0.6}
+      - {x: 2.6480002, y: 0.624}
+      - {x: 2.6160002, y: 0.656}
+      - {x: 2.644, y: 0.69200003}
+      - {x: 2.6520002, y: 0.712}
+      - {x: 2.6520002, y: 0.748}
+      - {x: 2.6360002, y: 0.84800005}
+      - {x: 2.6000001, y: 0.864}
+      - {x: 2.6200001, y: 0.90400004}
+      - {x: 2.6320002, y: 0.9760001}
+      - {x: 2.64, y: 1.056}
+      - {x: 2.66, y: 1.088}
+      - {x: 2.6720002, y: 1.1880001}
+      - {x: 2.6520002, y: 1.2360001}
+      - {x: 2.676, y: 1.264}
+      - {x: 2.68, y: 1.388}
+      - {x: 2.6560001, y: 1.416}
+      - {x: 2.664, y: 1.48}
+      - {x: 2.6520002, y: 1.5680001}
+      - {x: 2.6120002, y: 1.6040001}
+      - {x: 2.6120002, y: 1.6320001}
+      - {x: 2.608, y: 1.6800001}
+      - {x: 2.5960002, y: 1.7160001}
+      - {x: 2.5600002, y: 1.784}
+      - {x: 2.5040002, y: 1.792}
+      - {x: 2.5, y: 1.8280001}
+      - {x: 2.436, y: 1.8920001}
+      - {x: 2.404, y: 1.9200001}
+      - {x: 2.364, y: 1.9360001}
+      - {x: 2.3360002, y: 1.9640001}
+      - {x: 2.2840002, y: 1.996}
+      - {x: 2.2, y: 2.02}
+      - {x: 2.1720002, y: 1.9920001}
+      - {x: 2.1560001, y: 2.02}
+      - {x: 2.084, y: 2.052}
+      - {x: 2.032, y: 2.0600002}
+      - {x: 2.0040002, y: 2.056}
+      - {x: 1.9560001, y: 2.016}
+      - {x: 1.9080001, y: 2.0640001}
+      - {x: 1.7960001, y: 2.0440001}
+      - {x: 1.7520001, y: 2.012}
+      - {x: 1.7440001, y: 1.9840001}
+      - {x: 1.7160001, y: 1.9840001}
+      - {x: 1.6600001, y: 1.9920001}
+      - {x: 1.5920001, y: 1.9520001}
+      - {x: 1.5400001, y: 1.9080001}
+      - {x: 1.536, y: 1.8640001}
+      - {x: 1.4720001, y: 1.8600001}
+      - {x: 1.432, y: 1.8160001}
+      - {x: 1.396, y: 1.7520001}
+      - {x: 1.4000001, y: 1.6800001}
+      - {x: 1.3800001, y: 1.6840001}
+      - {x: 1.332, y: 1.6320001}
+      - {x: 1.3280001, y: 1.6}
+      - {x: 1.332, y: 1.5000001}
+      - {x: 1.368, y: 1.468}
+      - {x: 1.3720001, y: 1.4440001}
+      - {x: 1.3560001, y: 1.4120001}
+      - {x: 1.3520001, y: 1.3840001}
+      - {x: 1.396, y: 1.284}
+      - {x: 1.432, y: 1.2520001}
+      - {x: 1.4480001, y: 1.2320001}
+      - {x: 1.46, y: 1.1680001}
+      - {x: 1.5000001, y: 1.1240001}
+      - {x: 1.544, y: 1.088}
+      - {x: 1.608, y: 1.0840001}
+      - {x: 1.608, y: 1.0400001}
+      - {x: 1.6200001, y: 1.016}
+      - {x: 1.6600001, y: 0.97200006}
+      - {x: 1.7440001, y: 0.93600005}
+      - {x: 1.8240001, y: 0.86}
+      - {x: 1.932, y: 0.75200003}
+      - {x: 1.932, y: 0.712}
+      - {x: 1.96, y: 0.648}
+      - {x: 1.9520001, y: 0.61600006}
+      - {x: 1.9520001, y: 0.58400005}
+      - {x: 1.94, y: 0.54800004}
+      - {x: 1.9080001, y: 0.508}
+      - {x: 1.876, y: 0.504}
+      - {x: 1.8360001, y: 0.49600002}
+      - {x: 1.7520001, y: 0.44400004}
+      - {x: 1.7040001, y: 0.48400003}
+      - {x: 1.644, y: 0.5}
+      - {x: 1.6120001, y: 0.492}
+      - {x: 1.552, y: 0.45600003}
+      - {x: 1.5120001, y: 0.43600002}
+      - {x: 1.452, y: 0.46400002}
+      - {x: 1.3720001, y: 0.5}
+      - {x: 1.312, y: 0.508}
+      - {x: 1.2240001, y: 0.508}
+      - {x: 1.2440001, y: 0.532}
+      - {x: 1.2320001, y: 0.568}
+      - {x: 1.184, y: 0.56}
+      - {x: 1.1, y: 0.536}
+      - {x: 0.99200004, y: 0.504}
+      - {x: 0.99200004, y: 0.52000004}
+      - {x: 0.984, y: 0.536}
+      - {x: 0.96000004, y: 0.532}
+      - {x: 0.832, y: 0.46400002}
+      - {x: 0.768, y: 0.41200003}
+      - {x: 0.72400004, y: 0.37600002}
+      - {x: 0.716, y: 0.4}
+      - {x: 0.69200003, y: 0.39600003}
+      - {x: 0.66800004, y: 0.372}
+      - {x: 0.52400005, y: 0.23600002}
+      - {x: 0.48800004, y: 0.21200001}
+      - {x: 0.45200002, y: 0.264}
+      - {x: 0.55600005, y: 0.44000003}
+      - {x: 0.60400003, y: 0.532}
+      - {x: 0.624, y: 0.58400005}
+      - {x: 0.648, y: 0.67200005}
+      - {x: 0.66400003, y: 0.748}
+      - {x: 0.67600006, y: 0.768}
+      - {x: 0.712, y: 0.712}
+      - {x: 0.72800004, y: 0.712}
+      - {x: 0.744, y: 0.74}
+      - {x: 0.744, y: 1.028}
+      - {x: 0.73200005, y: 1.148}
+      - {x: 0.72, y: 1.212}
+      - {x: 0.716, y: 1.212}
+      - {x: 0.712, y: 1.2320001}
+      - {x: 0.712, y: 1.2240001}
+      - {x: 0.72800004, y: 1.212}
+      - {x: 0.72800004, y: 1.2080001}
+      - {x: 0.748, y: 1.1520001}
+      - {x: 0.8, y: 1.1240001}
+      - {x: 0.804, y: 1.1400001}
+      - {x: 0.804, y: 1.1880001}
+      - {x: 0.76000005, y: 1.312}
+      - {x: 0.708, y: 1.4080001}
+      - {x: 0.66400003, y: 1.468}
+      - {x: 0.624, y: 1.5200001}
+      - {x: 0.532, y: 1.608}
+      - {x: 0.596, y: 1.572}
+      - {x: 0.632, y: 1.5600001}
+      - {x: 0.652, y: 1.5680001}
+      - {x: 0.64400005, y: 1.608}
+      - {x: 0.54800004, y: 1.7040001}
+      - {x: 0.508, y: 1.7320001}
+      - {x: 0.45600003, y: 1.7680001}
+      - {x: 0.36800003, y: 1.812}
+      - {x: 0.284, y: 1.848}
+      - {x: 0.34, y: 1.8560001}
+      - {x: 0.36, y: 1.8920001}
+      - {x: 0.312, y: 1.9080001}
+      - {x: 0.14400001, y: 1.904}
+      - {x: 0.104, y: 1.9000001}
+      - {x: 0.14, y: 1.9560001}
+      - {x: 0.124000005, y: 1.988}
+      - {x: 0.108, y: 1.9840001}
+      - {x: 0.016, y: 1.9160001}
+      - {x: -0.056, y: 1.8720001}
+      - {x: -0.008, y: 1.9800001}
+      - {x: 0.044000003, y: 2.072}
+      - {x: 0.08400001, y: 2.1520002}
+      - {x: 0.072000004, y: 2.184}
+      - {x: 0.048, y: 2.184}
+      - {x: -0.028, y: 2.104}
+      - {x: -0.27600002, y: 1.8560001}
+      - {x: -0.284, y: 1.8560001}
+      - {x: -0.252, y: 2}
+      - {x: -0.24000001, y: 2.0600002}
+      - {x: -0.23600002, y: 2.104}
+      - {x: -0.24800001, y: 2.124}
+      - {x: -0.27600002, y: 2.112}
+      - {x: -0.39200002, y: 1.904}
+      - {x: -0.448, y: 1.8040001}
+      - {x: -0.508, y: 1.6840001}
+      - {x: -0.52000004, y: 1.628}
+      - {x: -0.52000004, y: 1.5400001}
+      - {x: -0.5, y: 1.5120001}
+      - {x: -0.54800004, y: 1.516}
+      - {x: -0.588, y: 1.4840001}
+      - {x: -0.72400004, y: 1.36}
+      - {x: -0.776, y: 1.3080001}
+      - {x: -0.808, y: 1.256}
+      - {x: -0.804, y: 1.1880001}
+      - {x: -0.78800005, y: 1.116}
+      - {x: -0.85600007, y: 1.116}
+      - {x: -0.896, y: 1.0960001}
+      - {x: -0.924, y: 1.0760001}
+      - {x: -1.0040001, y: 1}
+      - {x: -1.036, y: 0.96400005}
+      - {x: -1.1120001, y: 0.85600007}
+      - {x: -1.2080001, y: 0.656}
+      - {x: -1.2240001, y: 0.61600006}
+      - {x: -1.2240001, y: 0.58400005}
+      - {x: -1.22, y: 0.56}
+      - {x: -1.184, y: 0.536}
+      - {x: -1.1320001, y: 0.54}
+      - {x: -1.0960001, y: 0.544}
+      - {x: -1.0600001, y: 0.52000004}
+      - {x: -0.96800005, y: 0.476}
+      - {x: -0.86, y: 0.45200002}
+      - {x: -0.8, y: 0.44400004}
+      - {x: -0.69200003, y: 0.448}
+      - {x: -0.57600003, y: 0.46400002}
+      - {x: -0.51600003, y: 0.48000002}
+      - {x: -0.46400002, y: 0.5}
+      - {x: -0.404, y: 0.532}
+      - {x: -0.35200003, y: 0.58000004}
+      - {x: -0.328, y: 0.64400005}
+      - {x: -0.272, y: 0.63600004}
+      - {x: -0.18, y: 0.592}
+      - {x: -0.18400002, y: 0.528}
+      - {x: -0.28800002, y: 0.384}
+      - {x: -0.52000004, y: 0.23600002}
+      - {x: -0.55200005, y: 0.208}
+      - {x: -0.55200005, y: 0.2}
+      - {x: -0.536, y: 0.18400002}
+      - {x: -0.51600003, y: 0.18400002}
+      - {x: -0.58000004, y: 0.120000005}
+      - {x: -0.628, y: 0.048}
+      - {x: -0.66400003, y: -0.016}
+      - {x: -0.70000005, y: -0.104}
+      - {x: -0.712, y: -0.19600001}
+      - {x: -0.69200003, y: -0.224}
+      - {x: -0.72800004, y: -0.36400002}
+      - {x: -0.73200005, y: -0.416}
+      - {x: -0.70000005, y: -0.42800003}
+      - {x: -0.68, y: -0.42400002}
+      - {x: -0.67200005, y: -0.492}
+      - {x: -0.64000005, y: -0.60400003}
+      - {x: -0.624, y: -0.624}
+      - {x: -0.588, y: -0.61600006}
+      - {x: -0.56, y: -0.64000005}
+      - {x: -0.52400005, y: -0.69600004}
+      - {x: -0.5, y: -0.72800004}
+      - {x: -0.43600002, y: -0.8}
+      - {x: -0.404, y: -0.78800005}
+      - {x: -0.416, y: -0.73600006}
+      - {x: -0.344, y: -0.79200006}
+      - {x: -0.108, y: -0.93200004}
+      - {x: -0.064, y: -0.9480001}
+      - {x: -0.052, y: -0.93200004}
+      - {x: -0.060000002, y: -0.896}
+      - {x: -0.028, y: -0.90400004}
+      - {x: 0.076000005, y: -0.91200006}
+      - {x: 0.076000005, y: -0.9760001}
+      - {x: 0.080000006, y: -1.0120001}
+      - {x: 0.09200001, y: -1.108}
+      - {x: 0.09200001, y: -1.212}
+      - {x: 0.108, y: -1.2520001}
+      - {x: 0.14, y: -1.3240001}
+      - {x: 0.14, y: -1.3640001}
+      - {x: 0.15200001, y: -1.4200001}
+      - {x: 0.156, y: -1.4440001}
+      - {x: 0.18800001, y: -1.4760001}
+      - {x: 0.20400001, y: -1.4840001}
+      - {x: 0.24800001, y: -1.572}
+      - {x: 0.264, y: -1.588}
+      - {x: 0.388, y: -1.6480001}
+      - {x: 0.66400003, y: -1.7800001}
+      - {x: 0.72800004, y: -1.792}
+      - {x: 0.78800005, y: -1.7960001}
+      - {x: 0.892, y: -1.848}
+      - {x: 0.88000005, y: -1.9120001}
+      - {x: 0.772, y: -1.9160001}
+      - {x: 0.532, y: -1.9280001}
+      - {x: 0.51600003, y: -1.932}
+      - {x: 0.49600002, y: -1.9560001}
+      - {x: 0.49600002, y: -2.0080001}
+      - {x: 0.46400002, y: -2.032}
+      - {x: 0.42400002, y: -2.092}
+      - {x: 0.32000002, y: -2.104}
+      - {x: 0.296, y: -2.128}
+      - {x: 0.296, y: -2.164}
+      - {x: 0.24000001, y: -2.204}
+      - {x: 0.21200001, y: -2.2080002}
+      - {x: 0.172, y: -2.2280002}
+      - {x: 0.172, y: -2.292}
+      - {x: 0.2, y: -2.3200002}
+      - {x: 0.22000001, y: -2.3200002}
+      - {x: 0.28800002, y: -2.3160002}
+      - {x: 0.36800003, y: -2.344}
+      - {x: 0.404, y: -2.3760002}
+      - {x: 0.432, y: -2.3760002}
+      - {x: 0.476, y: -2.3720002}
+      - {x: 0.66400003, y: -2.3720002}
+      - {x: 0.684, y: -2.3560002}
+      - {x: 0.76000005, y: -2.3400002}
+    - - {x: 2.676, y: 0.272}
+      - {x: 2.6720002, y: 0.272}
+      - {x: 2.6560001, y: 0.28800002}
+      - {x: 2.6520002, y: 0.28800002}
+      - {x: 2.6200001, y: 0.32000002}
+      - {x: 2.664, y: 0.316}
+      - {x: 2.6680002, y: 0.32000002}
+      - {x: 2.684, y: 0.32000002}
+      - {x: 2.6880002, y: 0.324}
+      - {x: 2.684, y: 0.32000002}
+      - {x: 2.6880002, y: 0.316}
+      - {x: 2.6880002, y: 0.26000002}
+      - {x: 2.6880002, y: 0.264}
+--- !u!50 &936369157
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_BodyType: 0
+  m_Simulated: 0
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!212 &936369158
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: f563987ca8bb4b7428dcebfe00580bee, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &936369159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.8, y: -0.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &985312387
 GameObject:
   m_ObjectHideFlags: 0
@@ -7555,6 +8266,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7683,6 +8395,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7765,6 +8478,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7874,6 +8588,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7983,6 +8698,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8119,6 +8835,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8255,6 +8972,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8364,6 +9082,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8473,6 +9192,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8542,6 +9262,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8657,6 +9378,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8787,6 +9509,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8896,6 +9619,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9092,6 +9816,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9205,6 +9930,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9341,6 +10067,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9477,6 +10204,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9571,6 +10299,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1298667545
 Canvas:
   m_ObjectHideFlags: 0
@@ -9688,6 +10417,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9797,6 +10527,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9911,6 +10642,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10041,6 +10773,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10163,6 +10896,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10276,6 +11010,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10358,6 +11093,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10467,6 +11203,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10580,6 +11317,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10667,6 +11405,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10806,6 +11545,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10911,6 +11651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10955,6 +11696,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11050,6 +11792,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11132,6 +11875,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11241,6 +11985,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11350,6 +12095,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11445,6 +12191,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11602,6 +12349,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11711,6 +12459,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11820,6 +12569,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11933,6 +12683,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12069,6 +12820,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12164,6 +12916,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12291,6 +13044,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12404,6 +13158,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12513,6 +13268,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12595,6 +13351,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12677,6 +13434,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12786,6 +13544,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12922,6 +13681,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12990,6 +13750,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13116,6 +13877,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13225,6 +13987,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13334,6 +14097,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13416,6 +14180,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13498,6 +14263,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13607,6 +14373,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13716,6 +14483,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13799,6 +14567,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13893,6 +14662,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14019,6 +14789,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14128,6 +14899,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14237,6 +15009,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14346,6 +15119,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14382,6 +15156,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!850595691 &2105037084
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 3
+  m_GIWorkflowMode: 1
+  m_EnableBakedLightmaps: 0
+  m_EnableRealtimeLightmaps: 0
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 0
+  m_LightmapMaxSize: 1024
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_TextureCompression: 1
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 256
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 500
+  m_PVREnvironmentSampleCount: 500
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentMIS: 0
+  m_PVRFilteringMode: 2
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
 --- !u!1 &2108030145
 GameObject:
   m_ObjectHideFlags: 0
@@ -14455,6 +15290,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14564,6 +15400,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14649,6 +15486,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14731,6 +15569,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14867,6 +15706,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
