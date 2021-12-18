@@ -12,23 +12,17 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        deathAnim.SetBool("Hurt", true);
         if (health <= 0)
         {
             Die();
         }
+        deathAnim.SetBool("Hurt", false);
     }
 
     void Die()
     {
-        deathAnim.SetTrigger("Colpito");
+        deathAnim.SetBool("isDead", true);
         Destroy(gameObject);
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        SimplePlayerController player = collision.GetComponent<SimplePlayerController>();
-        if (player != null)
-        {
-            player.Hurt(damage);
-        }
     }
 }
