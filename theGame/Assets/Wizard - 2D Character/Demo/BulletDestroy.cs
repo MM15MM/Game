@@ -14,6 +14,6 @@ public class BulletDestroy : MonoBehaviour
         if (enemy != null) {
             enemy.TakeDamage(damage);
         }
-        Destroy(gameObject);
+        if (!collision.gameObject.CompareTag("Turn")) Destroy(gameObject);
     }
 }
