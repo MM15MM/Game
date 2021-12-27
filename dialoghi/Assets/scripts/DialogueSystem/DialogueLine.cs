@@ -35,8 +35,9 @@ namespace DialogueSystem
             imageHolder.preserveAspect = true;
         }
 
-        private void Start()
+        private void OnEnable()
         {
+            ResetLine();
             lineAppear = (WriteText(input, textHolder, textColor, textFont, delay, sound, delayBetweenLines));
             StartCoroutine(lineAppear);
         }
@@ -53,6 +54,13 @@ namespace DialogueSystem
                 else
                     finished = true;
             }
+        }
+
+        private void ResetLine()
+        {
+            textHolder = GetComponent<Text>();
+            textHolder.text = "";
+            finished = false;
         }
     }
 }
