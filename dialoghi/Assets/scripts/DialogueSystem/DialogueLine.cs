@@ -23,6 +23,7 @@ namespace DialogueSystem
         [SerializeField] private Sprite characterSprite;
         [SerializeField] private Image imageHolder;
 
+        private IEnumerator lineAppear;
 
         private void Awake()
         {
@@ -36,7 +37,22 @@ namespace DialogueSystem
 
         private void Start()
         {
-            StartCoroutine(WriteText(input, textHolder, textColor, textFont, delay, sound, delayBetweenLines));
+            lineAppear = (WriteText(input, textHolder, textColor, textFont, delay, sound, delayBetweenLines));
+            StartCoroutine(lineAppear);
+        }
+
+        private void Update()
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (textHolder.text != input)
+                {
+                    StopCoroutine(lineAppear);
+                    textHolder.text = input;
+                }
+                else
+                    finished = true;
+            }
         }
     }
 }
