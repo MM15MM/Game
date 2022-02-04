@@ -32,7 +32,7 @@ public class SceneManagerTransitions : MonoBehaviour
     {
         musicAnim.SetTrigger("FadeOut");
         yield return new WaitForSeconds(waitTime);
-        transitionanimator_.SetTrigger("Start");
+        transitionanimator_.SetTrigger("end");
         yield return new WaitForSeconds(TransitionTime);
         SceneManager.LoadScene(nameOfScene);
     }
