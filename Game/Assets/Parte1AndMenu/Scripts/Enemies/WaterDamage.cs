@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaterDamage : MonoBehaviour
 {
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "Player")

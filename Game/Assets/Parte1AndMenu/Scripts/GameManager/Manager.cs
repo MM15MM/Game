@@ -31,7 +31,7 @@ public class Manager : MonoBehaviour
 
         if(gameOver)
         {
-            //Time.timeScale = 0;
+            Time.timeScale = 0;
             gameOverScreen.SetActive(true);
         }
         
