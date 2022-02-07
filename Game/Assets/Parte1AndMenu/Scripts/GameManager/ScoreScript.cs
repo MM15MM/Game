@@ -23,17 +23,15 @@ public class ScoreScript : MonoBehaviour
     }
     void Start()
     {
-        highscore = PlayerPrefs.GetInt("Highscore", 0);
+        highscore = PlayerPrefs.GetInt("highscore", 0);
         scoreText.text = "Score: " + score.ToString();
         HighscoreText.text = "Highscore: " + highscore.ToString();
-        score = 0;
 
     }
     public void AddPoint()
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
-        PlayerPrefs.SetInt("Score", score);
         if (highscore < score)
             PlayerPrefs.SetInt("highscore", score);
     }
@@ -41,6 +39,7 @@ public class ScoreScript : MonoBehaviour
     {
         score += 5;
         scoreText.text = "Score: " + score.ToString();
-        PlayerPrefs.SetInt("Score", score);
+        if (highscore < score)
+            PlayerPrefs.SetInt("highscore", score);
     }
 }
