@@ -1,18 +1,29 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace ClearSky
 {
     public class SimplePlayerController : MonoBehaviour
     {
-        public float movePower = 10f;
-        public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
 
         private Rigidbody2D rb;
         private Animator anim;
+
         Vector3 movement;
+        public float movePower = 10f;
+
         private int direction = 1;
+        private bool isRight = true;
+
         bool isJumping = false;
+        public float jumpPower = 15f; //Set Gravity Scale in Rigidbody2D Component to 5
+
         private bool alive = true;
+
+        public GameObject bullet;
+        public Rigidbody2D bulletBody;
+        public Transform bulletDimensions;
+        public float bulletSpeed = 15f;
 
 
         // Start is called before the first frame update
@@ -27,8 +38,8 @@ namespace ClearSky
             Restart();
             if (alive)
             {
-                Hurt();
-                Die();
+                //Hurt();
+                //Die();
                 Attack();
                 Jump();
                 Run();
@@ -46,10 +57,11 @@ namespace ClearSky
             Vector3 moveVelocity = Vector3.zero;
             anim.SetBool("isRun", false);
 
-
-            if (Input.GetAxisRaw("Horizontal") < 0)
+            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") < 0)
             {
-                direction = -1;
+                if (isRight) { transform.Rotate(0f, 180f, 0f); }
+
+                isRight = false;
                 moveVelocity = Vector3.left;
 
                 transform.localScale = new Vector3(direction, 1, 1);
@@ -57,9 +69,12 @@ namespace ClearSky
                     anim.SetBool("isRun", true);
 
             }
-            if (Input.GetAxisRaw("Horizontal") > 0)
+            if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0)
             {
-                direction = 1;
+                if (!isRight) { transform.Rotate(0f, 180f, 0f); }
+
+                isRight = true;
+
                 moveVelocity = Vector3.right;
 
                 transform.localScale = new Vector3(direction, 1, 1);
@@ -71,7 +86,7 @@ namespace ClearSky
         }
         void Jump()
         {
-            if ((Input.GetButtonDown("Jump") || Input.GetAxisRaw("Vertical") > 0)
+            if ((CrossPlatformInputManager.GetButtonDown("Jump") || CrossPlatformInputManager.GetAxisRaw("Vertical") > 0)
             && !anim.GetBool("isJump"))
             {
                 isJumping = true;
@@ -91,14 +106,20 @@ namespace ClearSky
         }
         void Attack()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (CrossPlatformInputManager.GetButtonDown("Fire1"))
             {
                 anim.SetTrigger("attack");
+                Invoke("Shooting", 0.5f);
             }
         }
-        void Hurt()
+        private void Shooting()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            Rigidbody2D instance = Instantiate(bulletBody, bulletDimensions.position, bulletDimensions.rotation);
+            instance.velocity = transform.right * bulletSpeed;
+        }
+        /* void Hurt()
+        {
+            if (CrossPlatformInputManager.GetButtonDown(KeyCode.Alpha2))
             {
                 anim.SetTrigger("hurt");
                 if (direction == 1)
@@ -114,7 +135,7 @@ namespace ClearSky
                 anim.SetTrigger("die");
                 alive = false;
             }
-        }
+        } */
         void Restart()
         {
             if (Input.GetKeyDown(KeyCode.Alpha0))
