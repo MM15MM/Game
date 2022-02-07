@@ -5,46 +5,20 @@ namespace DialogueSystem
 {
     public class DialogueHolder : MonoBehaviour
     {
-        private IEnumerator dialogueSeq;
-        private bool dialogueFinished;
 
-        private void OnEnable()
+        private void Awake()
         {
-            dialogueSeq = dialogueSequence();
-            StartCoroutine(dialogueSeq);
-        }
-
-        private void Update()
-        {
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                Deactivate();
-                gameObject.SetActive(false);
-                StopCoroutine(dialogueSeq);
-            }
+            StartCoroutine(dialogueSequence());
         }
 
         private IEnumerator dialogueSequence()
         {
-            if (!dialogueFinished)
+            for(int i = 0; i < transform.childCount; i++)
             {
-                for (int i = 0; i < transform.childCount -1; i++)
-                {
-                    Deactivate();
-                    transform.GetChild(i).gameObject.SetActive(true);
-                    yield return new WaitUntil(() => transform.GetChild(i).GetComponent<DialogueLine>().finished);
-                }
-            }
-            else
-            {
-                int index = transform.childCount - 1;
                 Deactivate();
-                transform.GetChild(index).gameObject.SetActive(true);
-                yield return new WaitUntil(() => transform.GetChild(index).GetComponent<DialogueLine>().finished);
+                transform.GetChild(i).gameObject.SetActive(true);
+                yield return new WaitUntil(() => transform.GetChild(i).GetComponent<DialogueLine>().finished);
             }
-
-            dialogueFinished = true;
-            gameObject.SetActive(false);
         }
 
         private void Deactivate()
