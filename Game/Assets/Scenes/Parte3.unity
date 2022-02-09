@@ -3673,7 +3673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127431434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1641512, y: 1.4000001, z: -1.1}
+  m_LocalPosition: {x: 49.77585, y: 1.4000001, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1262991913}
@@ -4495,7 +4495,7 @@ GameObject:
   - component: {fileID: 164605166}
   - component: {fileID: 164605165}
   - component: {fileID: 164605167}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: PianoInAria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14623,7 +14623,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1641512, y: 1.4000001, z: -1.1}
+  m_LocalPosition: {x: 49.77585, y: 1.4000001, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14829,7 +14829,7 @@ GameObject:
   - component: {fileID: 538966057}
   - component: {fileID: 538966058}
   - component: {fileID: 538966059}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: SoloPiano - Celeste chiaro_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19604,6 +19604,7 @@ GameObject:
   - component: {fileID: 777197052}
   - component: {fileID: 777197051}
   - component: {fileID: 777197050}
+  - component: {fileID: 777197057}
   m_Layer: 7
   m_Name: Enemy (1)
   m_TagString: Enemy
@@ -20244,6 +20245,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &777197057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777197049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641973e79fc5646478ba93f3a4d22d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &780061566
 GameObject:
   m_ObjectHideFlags: 0
@@ -24870,6 +24884,7 @@ GameObject:
   - component: {fileID: 936369155}
   - component: {fileID: 936369154}
   - component: {fileID: 936369160}
+  - component: {fileID: 936369161}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -25510,6 +25525,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   moveRight: 1
+--- !u!114 &936369161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936369153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641973e79fc5646478ba93f3a4d22d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &938494879
 GameObject:
   m_ObjectHideFlags: 0
@@ -37051,7 +37079,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 1.7863779, y: 0.087685585}
@@ -43537,7 +43565,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 2.2957685, y: 0.087685585}
@@ -47653,7 +47681,7 @@ GameObject:
   - component: {fileID: 1539900010}
   - component: {fileID: 1539900009}
   - component: {fileID: 1539900008}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: PianoInAria (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50639,7 +50667,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 2.2957685, y: 0.087685585}
@@ -57887,7 +57915,7 @@ GameObject:
   - component: {fileID: 1903361701}
   - component: {fileID: 1903361703}
   - component: {fileID: 1903361702}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: SoloPiano - Celeste chiaro_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58955,6 +58983,10 @@ PrefabInstance:
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -1638849379003000855, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3001869937291807088, guid: 52f290064adb0ca4182293a2e40c06ab, type: 3}
+    - target: {fileID: -1638849379003000855, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: bulletPos
       value: 
       objectReference: {fileID: 1651176089}
@@ -59048,7 +59080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.15
+      value: 49.79
       objectReference: {fileID: 0}
     - target: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_LocalPosition.y
@@ -59904,7 +59936,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 2.2957685, y: 0.087685585}
