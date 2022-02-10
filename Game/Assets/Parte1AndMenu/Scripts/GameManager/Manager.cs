@@ -20,7 +20,7 @@ public class Manager : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 1;
-        //numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
+        numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
         //scorePoints = PlayerPrefs.GetInt("PlayerScore", 0);
         gameOver = false;
     }

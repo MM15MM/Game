@@ -19983,7 +19983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.823906, y: 1.3923903, z: -1.1}
+  m_LocalPosition: {x: 49.82469, y: 1.3923903, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43987,7 +43987,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 164423809d0eada45a12ae245c0eb1a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parte1animator_: {fileID: 0}
   nameOfScene: Parte3
 --- !u!61 &808838383
 BoxCollider2D:
@@ -49881,7 +49880,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951378209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.73, y: -4.6099997, z: -10}
+  m_LocalPosition: {x: 86.46, y: -3.4599998, z: -10}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 7420946}
@@ -82316,11 +82315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.73
+      value: 86.46
       objectReference: {fileID: 0}
     - target: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.81
+      value: -4.66
       objectReference: {fileID: 0}
     - target: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_LocalPosition.z
