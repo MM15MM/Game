@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 14559001}
   - component: {fileID: 14559003}
   - component: {fileID: 14559002}
+  - component: {fileID: 14559004}
   m_Layer: 5
   m_Name: HighscoreTextRecap
   m_TagString: Untagged
@@ -289,6 +290,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14559000}
   m_CullTransparentMesh: 1
+--- !u!114 &14559004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14559000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7791560dffc1242bbca8858ddba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 101062312}
+  HighscoreText: {fileID: 515141833}
+  highscore: 0
+  score: 0
 --- !u!4 &20746884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7664669046279593615, guid: 2a582814b401259449e6ed23127f71de, type: 3}
@@ -675,6 +692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 101062312}
   HighscoreText: {fileID: 515141833}
+  highscore: 0
+  score: 0
 --- !u!1 &111189643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228444210}
   - component: {fileID: 228444209}
+  - component: {fileID: 228444211}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1274,6 +1294,8 @@ MonoBehaviour:
   coinsText: {fileID: 246172801}
   PauseScreen: {fileID: 1078204875}
   gameOverScreen: {fileID: 1000360376}
+  HighscoreTextRecap: {fileID: 14559002}
+  ScoreText: {fileID: 101062310}
 --- !u!4 &228444210
 Transform:
   m_ObjectHideFlags: 0
@@ -1288,6 +1310,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228444211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228444208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7791560dffc1242bbca8858ddba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 101062312}
+  HighscoreText: {fileID: 515141833}
+  highscore: 0
+  score: 0
 --- !u!1 &229169665
 GameObject:
   m_ObjectHideFlags: 0
@@ -14635,13 +14673,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475366142}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a7791560dffc1242bbca8858ddba5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 101062312}
   HighscoreText: {fileID: 515141833}
+  highscore: 0
+  score: 0
 --- !u!114 &475366145
 MonoBehaviour:
   m_ObjectHideFlags: 0

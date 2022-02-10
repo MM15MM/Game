@@ -1,6 +1,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
@@ -14,7 +15,10 @@ public class Manager : MonoBehaviour
 
     public static int scorePoints;
 
- 
+    //public ScoreScript ss;
+    public Text HighscoreTextRecap;
+
+    public GameObject ScoreText; 
 
 
     private void Awake()
@@ -33,8 +37,13 @@ public class Manager : MonoBehaviour
         {
             Time.timeScale = 0;
             gameOverScreen.SetActive(true);
+            //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
+
+            ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
+            if (ss.highscore < ss.score) ss.highscore = ss.score;
+            HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
         }
-        
+
     }
     public void Pause()
     {

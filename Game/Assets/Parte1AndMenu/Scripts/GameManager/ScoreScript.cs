@@ -12,8 +12,8 @@ public class ScoreScript : MonoBehaviour
     public Text HighscoreText;
 
     [Header("Score values")]
-    int highscore = 0;
-    int score = 0;
+    public int highscore = 0;
+    public int score = 0;
     
     // Start is called before the first frame update
     void Awake()
