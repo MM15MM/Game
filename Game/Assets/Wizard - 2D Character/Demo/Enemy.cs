@@ -18,14 +18,11 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            Die();
+            deathAnim.SetBool("isDead", true);
             Destroy(gameObject);
+            ScoreScript.instance.AddPoints();
         }
         deathAnim.SetBool("Hurt", false);
     }
 
-    void Die()
-    {
-        deathAnim.SetBool("isDead", true);
-    }
 }
