@@ -16,9 +16,10 @@ public class Health : MonoBehaviour
     {
         CurrentHealth = StartingHealth;
         anim = GetComponent<Animator>();
+       
 
     }
-    public void TakeDamage (float damage)
+    public void TakeDamage(float damage)
     {
         CurrentHealth = Mathf.Clamp(CurrentHealth - damage, 0, StartingHealth);
 
@@ -49,13 +50,13 @@ public class Health : MonoBehaviour
                     GetComponentInParent<EnemyBehaviour>().enabled = false;
                     if (GetComponent<EnemyAttack>() != null)
                         GetComponent<EnemyAttack>().enabled = false;
-                       dead = true;
+                    dead = true;
                     Destroy(gameObject, 1f);
                     AudioManager.instance.Play("dragonDies");
                     ScoreScript.instance.AddPoints();
 
                 }
-                    
+
             }
 
         }

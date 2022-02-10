@@ -12,8 +12,8 @@ public class ScoreScript : MonoBehaviour
     public Text HighscoreText;
 
     [Header("Score values")]
-    public int highscore = 0;
-    public int score = 0;
+    public int highscore;
+    public int score;
     
     // Start is called before the first frame update
     void Awake()
@@ -32,6 +32,7 @@ public class ScoreScript : MonoBehaviour
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
+        //PlayerPrefs.SetInt("score", Manager.scorePoints);
         if (highscore < score)
             PlayerPrefs.SetInt("highscore", score);
     }

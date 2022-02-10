@@ -8,6 +8,7 @@ public class EnemyAttack : MonoBehaviour
         if (collision.tag == "Player")                                 //If Cassandra touches the dragon, Cassandra healt -1
         {                                                             
             collision.GetComponent<Health>().TakeDamage(damage);
+            //PlayerPrefs.SetFloat("CurrentHealth", Manager.CassandraHealth);
         }
        }
 }

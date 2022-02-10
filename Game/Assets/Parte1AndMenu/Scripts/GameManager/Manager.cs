@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour
 
     public static int scorePoints;
 
+    public static float CassandraHealth;
+
     //public ScoreScript ss;
     public Text HighscoreTextRecap;
 
@@ -27,7 +29,9 @@ public class Manager : MonoBehaviour
     {
         Time.timeScale = 1;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
-        //scorePoints = PlayerPrefs.GetInt("PlayerScore", 0);
+        scorePoints = PlayerPrefs.GetInt("score", 0);
+        CassandraHealth = PlayerPrefs.GetFloat("CurrentHealth", 0);
+        
         gameOver = false;
     }
 
