@@ -1295,7 +1295,7 @@ MonoBehaviour:
   PauseScreen: {fileID: 1078204875}
   gameOverScreen: {fileID: 1000360376}
   HighscoreTextRecap: {fileID: 14559002}
-  HighscoreText: {fileID: 515141831}
+  HighscoreText: {fileID: 101062310}
   ScoreText: {fileID: 101062310}
 --- !u!4 &228444210
 Transform:
