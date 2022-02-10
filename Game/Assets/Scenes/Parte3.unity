@@ -19605,6 +19605,7 @@ GameObject:
   - component: {fileID: 777197051}
   - component: {fileID: 777197050}
   - component: {fileID: 777197057}
+  - component: {fileID: 777197058}
   m_Layer: 7
   m_Name: Enemy (1)
   m_TagString: Enemy
@@ -20255,6 +20256,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 641973e79fc5646478ba93f3a4d22d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &777197058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777197049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be78b6ef636453148b76cf87eee77c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
@@ -25534,7 +25548,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 936369153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641973e79fc5646478ba93f3a4d22d52, type: 3}
+  m_Script: {fileID: 11500000, guid: be78b6ef636453148b76cf87eee77c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
@@ -58994,6 +59008,22 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 92545739, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 92545739, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Size.y
+      value: 4.0423064
+      objectReference: {fileID: 0}
+    - target: {fileID: 92545739, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.0288475
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387252028, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1387252034, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: StartingHealth
       value: 4
@@ -59218,7 +59248,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1387252028, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
 --- !u!4 &1941073518 stripped
 Transform:
