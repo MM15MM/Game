@@ -17,8 +17,8 @@ public class PlayerController : MonoBehaviour
 	private bool m_FacingRight = true;   // Which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
-	//private int availableJumps;
-	//public int totalJumps;
+	private int availableJumps;
+	public int totalJumps;
 
 
 	[Header("Events")]
@@ -88,20 +88,20 @@ public class PlayerController : MonoBehaviour
 
 		
 
-		//if (m_Grounded == true)
-        //{
-			//availableJumps = totalJumps;
-        //}
-			//if (jump && availableJumps > 0)
-			//{
+		if (m_Grounded == true)
+        {
+			availableJumps = totalJumps;
+        }
+			if (jump && availableJumps > 0)
+			{
 
 			// Add a vertical force to the player.
 
-			//m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-	    	//availableJumps--;
-			//m_Grounded = false;
-		//}
-			//else
+			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+	    	availableJumps--;
+			m_Grounded = false;
+		}
+			else
 		   if ( jump && m_Grounded)
 		    {
 			// Add a vertical force to the player.
