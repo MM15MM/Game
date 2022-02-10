@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour
 
     //public ScoreScript ss;
     public Text HighscoreTextRecap;
+    public GameObject HighscoreText;
 
     public GameObject ScoreText; 
 
@@ -41,6 +42,7 @@ public class Manager : MonoBehaviour
 
             ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
             if (ss.highscore < ss.score) ss.highscore = ss.score;
+            else 
             HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
         }
 
