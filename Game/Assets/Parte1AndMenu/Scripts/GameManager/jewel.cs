@@ -10,7 +10,7 @@ public class jewel : MonoBehaviour
         {
             AudioManager.instance.Play("Collected");
             Destroy(gameObject);
-            ScoreScript.instance.AddPoints();
+            ScoreScript.instance.AddPoint();
         }
     }
 }

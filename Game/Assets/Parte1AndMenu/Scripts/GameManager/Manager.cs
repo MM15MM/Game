@@ -13,15 +13,14 @@ public class Manager : MonoBehaviour
     public static bool gameOver;
     public GameObject gameOverScreen;
 
-    public static int scorePoints;
+    //public static int scorePoints;
 
-    public static float CassandraHealth;
+    //public static float CassandraHealth;
 
     //public ScoreScript ss;
     public Text HighscoreTextRecap;
 
     public GameObject HighscoreText;
-
     public GameObject ScoreText; 
 
 
@@ -29,8 +28,8 @@ public class Manager : MonoBehaviour
     {
         Time.timeScale = 1;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
-        scorePoints = PlayerPrefs.GetInt("score", 0);
-        CassandraHealth = PlayerPrefs.GetFloat("CurrentHealth", 0);
+        //scorePoints = PlayerPrefs.GetInt("score", 0);
+        //CassandraHealth = PlayerPrefs.GetFloat("CurrentHealth", 0);
         
         gameOver = false;
     }
@@ -43,13 +42,16 @@ public class Manager : MonoBehaviour
         {
             Time.timeScale = 0;
             gameOverScreen.SetActive(true);
+            HighscoreText.SetActive(false);
+            ScoreText.SetActive(false);
+
             //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
 
             ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
 
             if (ss.highscore < ss.score) ss.highscore = ss.score;
             HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
-            HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
+            //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
         }
 
     }
@@ -75,5 +77,11 @@ public class Manager : MonoBehaviour
     public void ReplayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Reset();
+    }
+
+    public void Reset()
+    {
+        PlayerPrefs.SetInt("NumberOfCoins", 0);
     }
 }

@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
         {
             deathAnim.SetBool("isDead", true);
             Destroy(gameObject);
-            ScoreScript.instance.AddPoints();
+            ScoreScript.instance.AddPoint();
         }
         deathAnim.SetBool("Hurt", false);
     }

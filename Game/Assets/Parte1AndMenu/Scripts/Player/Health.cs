@@ -53,7 +53,7 @@ public class Health : MonoBehaviour
                     dead = true;
                     Destroy(gameObject, 1f);
                     AudioManager.instance.Play("dragonDies");
-                    ScoreScript.instance.AddPoints();
+                    ScoreScript.instance.AddPoint();
 
                 }
 
