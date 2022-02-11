@@ -15,11 +15,11 @@ public class Manager : MonoBehaviour
     public static bool gameOver;
     public GameObject gameOverScreen;
 
-    public int scorePoints;
-
+    //public int scorePoints;
     //static public float CassandraHealth;
-
     //public ScoreScript ss;
+ 
+
     public Text HighscoreTextRecap;
 
     public GameObject HighscoreText;
@@ -54,6 +54,8 @@ public class Manager : MonoBehaviour
 
             if (ss.highscore < ss.score) ss.highscore = ss.score;
             HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
+
+
             //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
         }
 

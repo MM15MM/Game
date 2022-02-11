@@ -54,11 +54,5 @@ public class ScoreScript : MonoBehaviour
 
         }
     }
-    /*public void AddPoints()
-    {
-        score += 5;
-        scoreText.text = "Score: " + score.ToString();
-        if (highscore < score)
-            PlayerPrefs.SetInt("highscore", score);
-    }*/
+ 
 }
