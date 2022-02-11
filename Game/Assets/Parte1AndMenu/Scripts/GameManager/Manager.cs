@@ -17,7 +17,7 @@ public class Manager : MonoBehaviour
 
     public int scorePoints;
 
-    //public static float CassandraHealth;
+    //static public float CassandraHealth;
 
     //public ScoreScript ss;
     public Text HighscoreTextRecap;
