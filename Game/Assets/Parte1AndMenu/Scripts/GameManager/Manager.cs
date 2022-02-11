@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
+    public static Manager instance;
+
     public static int numberOfCoins;  //number of coins
     public TextMeshProUGUI coinsText;
 
@@ -13,7 +15,7 @@ public class Manager : MonoBehaviour
     public static bool gameOver;
     public GameObject gameOverScreen;
 
-    //public static int scorePoints;
+    public int scorePoints;
 
     //public static float CassandraHealth;
 
@@ -26,6 +28,7 @@ public class Manager : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
         Time.timeScale = 1;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
         //scorePoints = PlayerPrefs.GetInt("score", 0);
@@ -66,6 +69,7 @@ public class Manager : MonoBehaviour
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        Reset();
     }
     public void Resume()
     {
@@ -76,12 +80,13 @@ public class Manager : MonoBehaviour
 
     public void ReplayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Parte1");
         Reset();
     }
 
     public void Reset()
     {
         PlayerPrefs.SetInt("NumberOfCoins", 0);
+        PlayerPrefs.SetInt("score", 0);
     }
 }

@@ -24,17 +24,35 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         highscore = PlayerPrefs.GetInt("highscore", 0);
+        score = PlayerPrefs.GetInt("score", 0);
         scoreText.text = "Score: " + score.ToString();
         HighscoreText.text = "Highscore: " + highscore.ToString();
 
+    }
+    private void OnDestroy()
+    {
+        PlayerPrefs.SetInt("higscore", highscore);
+        PlayerPrefs.SetInt("score", score);
     }
     public void AddPoint()
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
-        //PlayerPrefs.SetInt("score", Manager.scorePoints);
-        if (highscore < score)
+        updateHighscore();
+        PlayerPrefs.SetInt("score", score);
+
+        //if (highscore < score)
+            //PlayerPrefs.SetInt("highscore", score);
+    }
+
+    void updateHighscore()
+    {
+        if (score > highscore)
+        {
+            highscore = score;
             PlayerPrefs.SetInt("highscore", score);
+
+        }
     }
     /*public void AddPoints()
     {
