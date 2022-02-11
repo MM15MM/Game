@@ -1294,6 +1294,7 @@ MonoBehaviour:
   coinsText: {fileID: 246172801}
   PauseScreen: {fileID: 1078204875}
   gameOverScreen: {fileID: 1000360376}
+  scorePoints: 0
   HighscoreTextRecap: {fileID: 14559002}
   HighscoreText: {fileID: 515141831}
   ScoreText: {fileID: 101062310}

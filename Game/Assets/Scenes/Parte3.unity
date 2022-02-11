@@ -3673,7 +3673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127431434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.190756, y: -1.6776099, z: -1.1}
+  m_LocalPosition: {x: -13.220847, y: -1.6776099, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1262991913}
@@ -14622,7 +14622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.190756, y: -1.6776099, z: -1.1}
+  m_LocalPosition: {x: -13.220847, y: -1.6776099, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19624,7 +19624,6 @@ GameObject:
   - component: {fileID: 777197052}
   - component: {fileID: 777197051}
   - component: {fileID: 777197050}
-  - component: {fileID: 777197057}
   - component: {fileID: 777197058}
   m_Layer: 7
   m_Name: Enemy (1)
@@ -20266,19 +20265,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &777197057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777197049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641973e79fc5646478ba93f3a4d22d52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!114 &777197058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20291,7 +20277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be78b6ef636453148b76cf87eee77c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.5
 --- !u!1 &780061566
 GameObject:
   m_ObjectHideFlags: 0
@@ -25571,7 +25557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be78b6ef636453148b76cf87eee77c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.5
 --- !u!1 &938494879
 GameObject:
   m_ObjectHideFlags: 0
@@ -59220,7 +59206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7503628611361166911, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_JumpForce
-      value: 750
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7503628611361166911, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: m_AirControl
