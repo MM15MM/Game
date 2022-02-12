@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Parte3.unity
     guid: 62128607e8bee65409a34a2eb1545f34
+  - enabled: 1
+    path: Assets/Scenes/endGameDialogue.unity
+    guid: e2edd71c5d609b94abb2fea09c636bbe
   m_configObjects: {}
