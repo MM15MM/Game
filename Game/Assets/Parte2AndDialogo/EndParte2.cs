@@ -12,7 +12,7 @@ public class EndParte2 : MonoBehaviour
         if (collision.tag == "Player")
         {
             AudioManager.instance.Play("Teleport");
-            Invoke("Change", 0.5f);
+            Invoke("Change", 0.25f);
         }
 
 
