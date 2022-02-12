@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public GameObject SettingsScreen;
     public void Play()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
     public void Settings()

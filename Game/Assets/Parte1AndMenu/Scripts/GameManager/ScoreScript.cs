@@ -7,6 +7,8 @@ public class ScoreScript : MonoBehaviour
 {
     public static ScoreScript instance;
 
+    public static int s;
+
     [Header ("Score text")]
     public Text scoreText;
     public Text HighscoreText;
@@ -14,12 +16,14 @@ public class ScoreScript : MonoBehaviour
     [Header("Score values")]
     public int highscore;
     public int score;
+
+
     
     // Start is called before the first frame update
     void Awake()
     {
         instance = this;
-
+        //PlayerPrefs.SetInt("score", score);
     }
     void Start()
     {
@@ -29,33 +33,37 @@ public class ScoreScript : MonoBehaviour
         HighscoreText.text = "Highscore: " + highscore.ToString();
 
     }
-    private void OnDestroy()
+    /*private void OnDestroy()
     {
         PlayerPrefs.SetInt("higscore", highscore);
         PlayerPrefs.SetInt("score", score);
-    }
+    }*/
     public void AddPoint()
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
-        updateHighscore();
         PlayerPrefs.SetInt("score", score);
+        updateHighscore();
+        
 
-        //if (highscore < score)
-            //PlayerPrefs.SetInt("highscore", score);
+        /*if (highscore < score)
+            PlayerPrefs.SetInt("highscore", score);*/
     }
 
     void updateHighscore()
     {
         if (score > highscore)
         {
-            highscore = score;
+            //highscore = score;
             PlayerPrefs.SetInt("highscore", score);
 
         }
     }
- public void ResetScore()
+
+   /* public void Reset()
     {
         score = 0;
-    }
+        PlayerPrefs.SetInt("score", 0);
+    }*/
+
 }

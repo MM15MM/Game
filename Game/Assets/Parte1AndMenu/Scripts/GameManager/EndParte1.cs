@@ -13,6 +13,7 @@ public class EndParte1 : MonoBehaviour
         {
             AudioManager.instance.Play("Teleport");
             Invoke("Change", 0.5f);
+
         }
 
 

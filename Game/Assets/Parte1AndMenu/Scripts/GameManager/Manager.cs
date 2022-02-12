@@ -15,9 +15,8 @@ public class Manager : MonoBehaviour
     public static bool gameOver;
     public GameObject gameOverScreen;
 
-    //public static int scorePoints;
- 
 
+ 
     public Text HighscoreTextRecap;
 
     public GameObject HighscoreText;
@@ -29,14 +28,14 @@ public class Manager : MonoBehaviour
         instance = this;
         Time.timeScale = 1;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
-        //scorePoints = PlayerPrefs.GetInt("score", 0);
         
         gameOver = false;
     }
 
+
     void Update()
     {
-        coinsText.text = numberOfCoins.ToString(); 
+        coinsText.text = numberOfCoins.ToString();
 
         if(gameOver)
         {
@@ -44,8 +43,6 @@ public class Manager : MonoBehaviour
             gameOverScreen.SetActive(true);
             HighscoreText.SetActive(false);
             ScoreText.SetActive(false);
-
-            //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
 
             ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
 
@@ -61,12 +58,11 @@ public class Manager : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseScreen.SetActive(true);
-       
-
     }
 
     public void GoToMainMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
         Reset();
     }
@@ -85,8 +81,8 @@ public class Manager : MonoBehaviour
 
     public void Reset()
     {
+        
         PlayerPrefs.SetInt("NumberOfCoins", 0);
         PlayerPrefs.SetInt("score", 0);
-        ScoreScript.instance.ResetScore();
     }
 }
