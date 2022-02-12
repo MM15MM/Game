@@ -12,7 +12,7 @@ public class GainingHealth : MonoBehaviour
         {
             collision.GetComponent<Health>().AddHealth(HealthValue);
             gameObject.SetActive(false);
-            AudioManager.instance.Play("HeartCollected");
+            AudioManager.instance.Play("Collected");
         }
     }
 }
