@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 454936273}
   - component: {fileID: 454936272}
   m_Layer: 0
-  m_Name: GameManager (1)
+  m_Name: GameManager (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2579,7 +2579,6 @@ MonoBehaviour:
   coinsText: {fileID: 1750406260}
   PauseScreen: {fileID: 89032618}
   gameOverScreen: {fileID: 2107775661}
-  scorePoints: 0
   HighscoreTextRecap: {fileID: 1356446959}
   HighscoreText: {fileID: 846020515}
   ScoreText: {fileID: 1060803591}
@@ -8936,7 +8935,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 454936273}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
         m_MethodName: GoToMainMenu
         m_Mode: 1
@@ -9528,7 +9527,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 454936273}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
         m_MethodName: GoToMainMenu
         m_Mode: 1
@@ -15458,7 +15457,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 454936273}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
         m_MethodName: ReplayGame
         m_Mode: 1
@@ -21484,7 +21483,7 @@ GameObject:
   - component: {fileID: 1065664628}
   - component: {fileID: 1065664627}
   m_Layer: 0
-  m_Name: AudioManager (1)
+  m_Name: AudioManager (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22177,7 +22176,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3982694167444702076, guid: d9c8e80296db33f4f99b38f3353dd263, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 63cf92ba0664aed4aad6dc52ba37da31, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1fb12c0251db33b42b4d116056cc7f50, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -23428,7 +23427,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 454936273}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
@@ -70097,7 +70096,7 @@ GameObject:
   - component: {fileID: 2042975981}
   - component: {fileID: 2042975980}
   m_Layer: 5
-  m_Name: CanvasUI (1)
+  m_Name: CanvasUI (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70677,7 +70676,7 @@ GameObject:
   - component: {fileID: 2107329103}
   - component: {fileID: 2107329105}
   - component: {fileID: 2107329104}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}

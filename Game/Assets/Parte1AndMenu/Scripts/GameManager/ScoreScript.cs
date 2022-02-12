@@ -54,5 +54,8 @@ public class ScoreScript : MonoBehaviour
 
         }
     }
- 
+ public void ResetScore()
+    {
+        score = 0;
+    }
 }
