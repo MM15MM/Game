@@ -82155,6 +82155,14 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 600
       objectReference: {fileID: 0}
+    - target: {fileID: 1387252028, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3001057
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387252028, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1387252034, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
       propertyPath: StartingHealth
       value: 4
