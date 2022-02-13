@@ -15,7 +15,7 @@ public class EndParte3 : MonoBehaviour
         if (collision.tag == "Player")
         {
             AudioManager.instance.Play("Teleport");
-            Invoke("Recap", 0.5f);
+            Invoke("Recap", 0.25f);
 
         }
 
@@ -26,9 +26,11 @@ public class EndParte3 : MonoBehaviour
     {
         Time.timeScale = 0;
         RecapScreen.SetActive(true);
+        HighscoreText.SetActive(false);
         ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
 
         if (ss.highscore < ss.score) ss.highscore = ss.score;
         HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
+
     }
 }
