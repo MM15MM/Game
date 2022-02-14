@@ -1,0 +1,4 @@
+this is a small package with 3 animations.
+anyways i hope its useful.
+
+any problem,suggestion etc. contact me at hamcav90@gmail.com
