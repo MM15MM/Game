@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 7fcf8a26f69bdf34bb4c7f626c37ae64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6383391426799293091
+    second: SoloPiano - Celeste chiaro_0
+  - first:
+      213: -4515116850869742065
+    second: SoloPiano - Celeste chiaro_1
+  - first:
+      213: -7155631468685664873
+    second: SoloPiano - Celeste chiaro_2
+  - first:
+      213: -6378273405618596541
+    second: SoloPiano - Celeste chiaro_3
+  - first:
+      213: 8471363970258831815
+    second: SoloPiano - Celeste chiaro_4
+  - first:
+      213: 728087210529293341
+    second: SoloPiano - Celeste chiaro_5
+  - first:
+      213: 8566672983510275364
+    second: SoloPiano - Celeste chiaro_6
+  - first:
+      213: -5851440841904714243
+    second: SoloPiano - Celeste chiaro_7
+  - first:
+      213: 8298644774683579231
+    second: SoloPiano - Celeste chiaro_8
+  - first:
+      213: 3551593231297998859
+    second: SoloPiano - Celeste chiaro_9
+  - first:
+      213: 4573197035180849105
+    second: SoloPiano - Celeste chiaro_10
+  - first:
+      213: 6373510943728308313
+    second: SoloPiano - Celeste chiaro_11
+  - first:
+      213: 2889115172891257102
+    second: SoloPiano - Celeste chiaro_12
+  - first:
+      213: -4550693759563980413
+    second: SoloPiano - Celeste chiaro_13
+  - first:
+      213: -6261124701769064180
+    second: SoloPiano - Celeste chiaro_14
+  - first:
+      213: 8278595259430361450
+    second: SoloPiano - Celeste chiaro_15
+  - first:
+      213: 5820495867764777573
+    second: SoloPiano - Celeste chiaro_16
+  - first:
+      213: -8268487330309995839
+    second: SoloPiano - Celeste chiaro_17
+  - first:
+      213: -255821889777314042
+    second: SoloPiano - Celeste chiaro_18
+  - first:
+      213: -5325472244679687548
+    second: SoloPiano - Celeste chiaro_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5daa576153a967a0800000000000000
+      internalID: -6383391426799293091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06578075251751c0800000000000000
+      internalID: -4515116850869742065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d5265671712bc90800000000000000
+      internalID: -7155631468685664873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34558c19122db77a0800000000000000
+      internalID: -6378273405618596541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c90252d5a4509570800000000000000
+      internalID: 8471363970258831815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d148a1dd57faa1a00800000000000000
+      internalID: 728087210529293341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425d019b0bfe2e670800000000000000
+      internalID: 8566672983510275364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd8e0a7e818bcea0800000000000000
+      internalID: -5851440841904714243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f539a285475ba2370800000000000000
+      internalID: 8298644774683579231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 76
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00f23a0a3bc94130800000000000000
+      internalID: 3551593231297998859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7f2d14972477f30800000000000000
+      internalID: 4573197035180849105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9509dfc5f62437850800000000000000
+      internalID: 6373510943728308313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09ef5b41f2381820800000000000000
+      internalID: 2889115172891257102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3812a93e220b8d0c0800000000000000
+      internalID: -4550693759563980413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01a1a0b1440c19a0800000000000000
+      internalID: -6261124701769064180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69549dc68a73e270800000000000000
+      internalID: 8278595259430361450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562afb6472e86c050800000000000000
+      internalID: 5820495867764777573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20e07d49e604d80800000000000000
+      internalID: -8268487330309995839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607dd0eb853237cf0800000000000000
+      internalID: -255821889777314042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoloPiano - Celeste chiaro_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 26
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824aa2853f1816b0800000000000000
+      internalID: -5325472244679687548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

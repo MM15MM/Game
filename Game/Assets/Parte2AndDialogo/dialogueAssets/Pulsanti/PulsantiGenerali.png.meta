@@ -1,0 +1,2544 @@
+fileFormatVersion: 2
+guid: 4ceda6d0ab41ab54d9d4e467b280c814
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2744667043262116648
+    second: PulsantiGenerali_0
+  - first:
+      213: 930806495683213114
+    second: PulsantiGenerali_1
+  - first:
+      213: 8227492713151413777
+    second: PulsantiGenerali_2
+  - first:
+      213: -9081141148508246252
+    second: PulsantiGenerali_3
+  - first:
+      213: 1135651203821059552
+    second: PulsantiGenerali_4
+  - first:
+      213: 9219537837497065660
+    second: PulsantiGenerali_5
+  - first:
+      213: 6880256403259538060
+    second: PulsantiGenerali_6
+  - first:
+      213: -3381577881939242384
+    second: PulsantiGenerali_7
+  - first:
+      213: -3989099570688618826
+    second: PulsantiGenerali_8
+  - first:
+      213: -6211166277324505667
+    second: PulsantiGenerali_9
+  - first:
+      213: -4694950618718530479
+    second: PulsantiGenerali_10
+  - first:
+      213: -2290396260610362856
+    second: PulsantiGenerali_11
+  - first:
+      213: -7903341056036696129
+    second: PulsantiGenerali_12
+  - first:
+      213: 2508038202906621727
+    second: PulsantiGenerali_13
+  - first:
+      213: 1952674603923986543
+    second: PulsantiGenerali_14
+  - first:
+      213: -5379519726331398457
+    second: PulsantiGenerali_15
+  - first:
+      213: 5086604677914102812
+    second: PulsantiGenerali_16
+  - first:
+      213: 3726129371095194013
+    second: PulsantiGenerali_17
+  - first:
+      213: -8103355195567443777
+    second: PulsantiGenerali_18
+  - first:
+      213: -4754879854229073326
+    second: PulsantiGenerali_19
+  - first:
+      213: 5203636845213136529
+    second: PulsantiGenerali_20
+  - first:
+      213: -7683667456252322750
+    second: PulsantiGenerali_21
+  - first:
+      213: -4312573135864014847
+    second: PulsantiGenerali_22
+  - first:
+      213: -2131106389249410195
+    second: PulsantiGenerali_23
+  - first:
+      213: -4489237905754096268
+    second: PulsantiGenerali_24
+  - first:
+      213: -6290658142102333805
+    second: PulsantiGenerali_25
+  - first:
+      213: -9184596836927857819
+    second: PulsantiGenerali_26
+  - first:
+      213: 4264036442919395365
+    second: PulsantiGenerali_27
+  - first:
+      213: -3223232927292538875
+    second: PulsantiGenerali_28
+  - first:
+      213: -2543471384082610212
+    second: PulsantiGenerali_29
+  - first:
+      213: 1461028688786388617
+    second: PulsantiGenerali_30
+  - first:
+      213: 1292477344495297186
+    second: PulsantiGenerali_31
+  - first:
+      213: -7231085070942354673
+    second: PulsantiGenerali_32
+  - first:
+      213: 9030919551629594427
+    second: PulsantiGenerali_33
+  - first:
+      213: 5761825495176953068
+    second: PulsantiGenerali_34
+  - first:
+      213: 3052806565297892379
+    second: PulsantiGenerali_35
+  - first:
+      213: 368314211166461869
+    second: PulsantiGenerali_36
+  - first:
+      213: -4022994926453717763
+    second: PulsantiGenerali_37
+  - first:
+      213: 5279366681648600028
+    second: PulsantiGenerali_38
+  - first:
+      213: -1292254032402274742
+    second: PulsantiGenerali_39
+  - first:
+      213: -2263435044016804913
+    second: PulsantiGenerali_40
+  - first:
+      213: -2154990433487180158
+    second: PulsantiGenerali_41
+  - first:
+      213: -6271741138037243680
+    second: PulsantiGenerali_42
+  - first:
+      213: 8403308736786324592
+    second: PulsantiGenerali_43
+  - first:
+      213: 4537282453005879433
+    second: PulsantiGenerali_44
+  - first:
+      213: 8978330888358894303
+    second: PulsantiGenerali_45
+  - first:
+      213: -394514310851999372
+    second: PulsantiGenerali_46
+  - first:
+      213: -5818381702842712100
+    second: PulsantiGenerali_47
+  - first:
+      213: -7299340407707502171
+    second: PulsantiGenerali_48
+  - first:
+      213: 3906894745121984426
+    second: PulsantiGenerali_49
+  - first:
+      213: 3091634618218132453
+    second: PulsantiGenerali_50
+  - first:
+      213: 7131332089410399351
+    second: PulsantiGenerali_51
+  - first:
+      213: -6220031170140001878
+    second: PulsantiGenerali_52
+  - first:
+      213: -2844879086249568900
+    second: PulsantiGenerali_53
+  - first:
+      213: 231145783082176388
+    second: PulsantiGenerali_54
+  - first:
+      213: -5268346161344463382
+    second: PulsantiGenerali_55
+  - first:
+      213: -7493277325698860816
+    second: PulsantiGenerali_56
+  - first:
+      213: -7994769447425040539
+    second: PulsantiGenerali_57
+  - first:
+      213: 6134465530773368465
+    second: PulsantiGenerali_58
+  - first:
+      213: 8324551015464687446
+    second: PulsantiGenerali_59
+  - first:
+      213: 6378874284728680727
+    second: PulsantiGenerali_60
+  - first:
+      213: 7664304424035449308
+    second: PulsantiGenerali_61
+  - first:
+      213: -542175826821326249
+    second: PulsantiGenerali_62
+  - first:
+      213: 8817411263115167159
+    second: PulsantiGenerali_63
+  - first:
+      213: 3713360741033536153
+    second: PulsantiGenerali_64
+  - first:
+      213: 4735836628545492427
+    second: PulsantiGenerali_65
+  - first:
+      213: -560863122820788909
+    second: PulsantiGenerali_66
+  - first:
+      213: -9079712049171463912
+    second: PulsantiGenerali_67
+  - first:
+      213: -3268954495625148431
+    second: PulsantiGenerali_68
+  - first:
+      213: 85580711906760170
+    second: PulsantiGenerali_69
+  - first:
+      213: -3276301490380368890
+    second: PulsantiGenerali_70
+  - first:
+      213: 6286481953837161108
+    second: PulsantiGenerali_71
+  - first:
+      213: 2592700868823642783
+    second: PulsantiGenerali_72
+  - first:
+      213: 2573068119317509567
+    second: PulsantiGenerali_73
+  - first:
+      213: 5034370954369040096
+    second: PulsantiGenerali_74
+  - first:
+      213: 4759340262883099482
+    second: PulsantiGenerali_75
+  - first:
+      213: -136039212119668314
+    second: PulsantiGenerali_76
+  - first:
+      213: 5533005626299237507
+    second: PulsantiGenerali_77
+  - first:
+      213: -1219363354139153976
+    second: PulsantiGenerali_78
+  - first:
+      213: 3251340073273105501
+    second: PulsantiGenerali_79
+  - first:
+      213: -7211509199754909294
+    second: PulsantiGenerali_80
+  - first:
+      213: -1236680975331780273
+    second: PulsantiGenerali_81
+  - first:
+      213: -5385343539222036741
+    second: PulsantiGenerali_82
+  - first:
+      213: 3343657570133369496
+    second: PulsantiGenerali_83
+  - first:
+      213: -7093606040334379185
+    second: PulsantiGenerali_84
+  - first:
+      213: -9071578058729351044
+    second: PulsantiGenerali_85
+  - first:
+      213: -2581787865978364145
+    second: PulsantiGenerali_86
+  - first:
+      213: -4610508251542109851
+    second: PulsantiGenerali_87
+  - first:
+      213: 5843855589965111282
+    second: PulsantiGenerali_88
+  - first:
+      213: 1152887763577272915
+    second: PulsantiGenerali_89
+  - first:
+      213: 269877651212983071
+    second: PulsantiGenerali_90
+  - first:
+      213: -2916034579801837420
+    second: PulsantiGenerali_91
+  - first:
+      213: -7401888922244319770
+    second: PulsantiGenerali_92
+  - first:
+      213: -9023717465048640236
+    second: PulsantiGenerali_93
+  - first:
+      213: 6912834756397463430
+    second: PulsantiGenerali_94
+  - first:
+      213: -2240380202479364145
+    second: PulsantiGenerali_95
+  - first:
+      213: -439274992533265309
+    second: PulsantiGenerali_96
+  - first:
+      213: 2276832370726940209
+    second: PulsantiGenerali_97
+  - first:
+      213: -8656067690127174412
+    second: PulsantiGenerali_98
+  - first:
+      213: 8098402862321243243
+    second: PulsantiGenerali_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PulsantiGenerali_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcc3a3bddbf8e9d0800000000000000
+      internalID: -2744667043262116648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1473
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37f2d18393eaec00800000000000000
+      internalID: 930806495683213114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e318f080ded2270800000000000000
+      internalID: 8227492713151413777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fabf74d3e49f180800000000000000
+      internalID: -9081141148508246252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1473
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edbf70c0c4a2cf00800000000000000
+      internalID: 1135651203821059552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_5
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb02945e0d062ff70800000000000000
+      internalID: 9219537837497065660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1473
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a34efdeb49b7f50800000000000000
+      internalID: 6880256403259538060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_7
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07291be25d83211d0800000000000000
+      internalID: -3381577881939242384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_8
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1473
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be017b531fd3a8c0800000000000000
+      internalID: -3989099570688618826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_9
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1473
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdff2fcd218dc9a0800000000000000
+      internalID: -6211166277324505667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1541845894f28deb0800000000000000
+      internalID: -4694950618718530479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1320
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812bf6b6cb0e630e0800000000000000
+      internalID: -2290396260610362856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf0c28ee21b15290800000000000000
+      internalID: -7903341056036696129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_13
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17bb5715775ec220800000000000000
+      internalID: 2508038202906621727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_14
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1320
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d0d0e43b491b10800000000000000
+      internalID: 1952674603923986543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_15
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c67fc19f4b1855b0800000000000000
+      internalID: -5379519726331398457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_16
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1320
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c09eb2100479640800000000000000
+      internalID: 5086604677914102812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_17
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99574fcbeed5b330800000000000000
+      internalID: 3726129371095194013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_18
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1320
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0f26f02691b8f80800000000000000
+      internalID: -8103355195567443777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_19
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1320
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252d30b07f5430eb0800000000000000
+      internalID: -4754879854229073326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19630130428073840800000000000000
+      internalID: 5203636845213136529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1167
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cd9d988212e5590800000000000000
+      internalID: -7683667456252322750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108dee8f499a624c0800000000000000
+      internalID: -4312573135864014847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_23
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b3932b70acc62e0800000000000000
+      internalID: -2131106389249410195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_24
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1167
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dfe43e8e503b1c0800000000000000
+      internalID: -4489237905754096268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_25
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3965294cfb713b8a0800000000000000
+      internalID: -6290658142102333805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_26
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1167
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b1db1c6d1c98080800000000000000
+      internalID: -9184596836927857819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_27
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e7819d86ec2b30800000000000000
+      internalID: 4264036442919395365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_28
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500c264eab6c443d0800000000000000
+      internalID: -3223232927292538875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_29
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1167
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd782678046c3bcd0800000000000000
+      internalID: -2543471384082610212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98674c10add964410800000000000000
+      internalID: 1461028688786388617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1015
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2e1e60c4dcfe110800000000000000
+      internalID: 1292477344495297186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_32
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c9dd907606ab90800000000000000
+      internalID: -7231085070942354673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_33
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f030efb75445d70800000000000000
+      internalID: 9030919551629594427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_34
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1015
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecbfc9a2cd16ff40800000000000000
+      internalID: 5761825495176953068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_35
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1caf8c856fbd5a20800000000000000
+      internalID: 3052806565297892379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_36
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1015
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf1e4ad2d38c1500800000000000000
+      internalID: 368314211166461869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_37
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4078bdd637b28c0800000000000000
+      internalID: -4022994926453717763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_38
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1015
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd392b29604144940800000000000000
+      internalID: 5279366681648600028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_39
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1015
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46a81fddcdf01ee0800000000000000
+      internalID: -1292254032402274742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb2535d1d9a690e0800000000000000
+      internalID: -2263435044016804913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_41
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 861
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ea1ad4e9fe712e0800000000000000
+      internalID: -2154990433487180158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_42
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e006100aac46f8a0800000000000000
+      internalID: -6271741138037243680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_43
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cd51206cc8e9470800000000000000
+      internalID: 8403308736786324592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_44
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 861
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9884709f95aa7fe30800000000000000
+      internalID: 4537282453005879433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_45
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda9c8caf50799c70800000000000000
+      internalID: 8978330888358894303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_46
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 861
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479cbd21357668af0800000000000000
+      internalID: -394514310851999372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_47
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf7d6a1ba4f04fa0800000000000000
+      internalID: -5818381702842712100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_48
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 861
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a970ff929883ba90800000000000000
+      internalID: -7299340407707502171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_49
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 861
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf06d13214183630800000000000000
+      internalID: 3906894745121984426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3313a1e41b7ea20800000000000000
+      internalID: 3091634618218132453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_51
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 661
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ca6ac70c497f260800000000000000
+      internalID: 7131332089410399351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_52
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9a2fb1b920ea9a0800000000000000
+      internalID: -6220031170140001878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_53
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75182b3b85f488d0800000000000000
+      internalID: -2844879086249568900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_54
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 661
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f41f37dd1353300800000000000000
+      internalID: 231145783082176388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_55
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3543441313e6b0800000000000000
+      internalID: -5268346161344463382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_56
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 661
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8fa3e29f7820890800000000000000
+      internalID: -7493277325698860816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_57
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9511bb8fdc0190800000000000000
+      internalID: -7994769447425040539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_58
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 661
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eef9006eff12550800000000000000
+      internalID: 6134465530773368465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_59
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 661
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657d36f0b0fb68370800000000000000
+      internalID: 8324551015464687446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71180208d50568850800000000000000
+      internalID: 6378874284728680727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_61
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 508
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9761534441d5a60800000000000000
+      internalID: 7664304424035449308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_62
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad28445fdc978f0800000000000000
+      internalID: -542175826821326249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b50280c3dcbd5a70800000000000000
+      internalID: 8817411263115167159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_64
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 508
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a6f247be1888330800000000000000
+      internalID: 3713360741033536153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_65
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5dcb6725219b140800000000000000
+      internalID: 4735836628545492427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_66
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 508
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d86ac16f96738f0800000000000000
+      internalID: -560863122820788909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_67
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110d466ff16ef180800000000000000
+      internalID: -9079712049171463912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_68
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 508
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c855b43752a2d0800000000000000
+      internalID: -3268954495625148431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_69
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 508
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5d3dc343b003100800000000000000
+      internalID: 85580711906760170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6049bc0372d3882d0800000000000000
+      internalID: -3276301490380368890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 355
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1e51a7021e3750800000000000000
+      internalID: 6286481953837161108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_72
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92741714bf1bf320800000000000000
+      internalID: 2592700868823642783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_73
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57dc262df55b320800000000000000
+      internalID: 2573068119317509567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_74
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 355
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eef5b2b5bdadd540800000000000000
+      internalID: 5034370954369040096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_75
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a538c56c0c29c0240800000000000000
+      internalID: 4759340262883099482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_76
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 355
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9451eae01bc1ef0800000000000000
+      internalID: -136039212119668314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_77
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384cdcf4d4f29cc40800000000000000
+      internalID: 5533005626299237507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_78
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 355
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c928686d73f31fe0800000000000000
+      internalID: -1219363354139153976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_79
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 355
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c9f6ff1941f1d20800000000000000
+      internalID: 3251340073273105501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299a52e47929beb90800000000000000
+      internalID: -7211509199754909294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_81
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 203
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f499dd4843d66dee0800000000000000
+      internalID: -1236680975331780273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_82
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfeb937759a6345b0800000000000000
+      internalID: -5385343539222036741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_83
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892685638de076e20800000000000000
+      internalID: 3343657570133369496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_84
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 203
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47dd4dc3e27e8d90800000000000000
+      internalID: -7093606040334379185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_85
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c789531a1d74b1280800000000000000
+      internalID: -9071578058729351044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_86
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 203
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f12f26d95ab2cd0800000000000000
+      internalID: -2581787865978364145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_87
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56143d83c2f2400c0800000000000000
+      internalID: -4610508251542109851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_88
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 203
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff1d8e62bb891150800000000000000
+      internalID: 5843855589965111282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_89
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 203
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35afaed0051efff00800000000000000
+      internalID: 1152887763577272915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdd5d3b4cceb300800000000000000
+      internalID: 269877651212983071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_91
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 49
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f72edff92887d0800000000000000
+      internalID: -2916034579801837420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_92
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e57abafd35374990800000000000000
+      internalID: -7401888922244319770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_93
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415994676c055c280800000000000000
+      internalID: -9023717465048640236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_94
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 49
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6877b0ec5925fef50800000000000000
+      internalID: 6912834756397463430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_95
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7566d631298e0e0800000000000000
+      internalID: -2240380202479364145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_96
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 49
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364a75fb8b167e9f0800000000000000
+      internalID: -439274992533265309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_97
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2a4e5afee89f10800000000000000
+      internalID: 2276832370726940209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_98
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 49
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4db323c487fd780800000000000000
+      internalID: -8656067690127174412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PulsantiGenerali_99
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 49
+        width: 146
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b641aa00f7e436070800000000000000
+      internalID: 8098402862321243243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
