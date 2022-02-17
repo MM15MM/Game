@@ -226,16 +226,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453258783}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.54250056, y: 0.5574059, z: 0}
   m_Children: []
-  m_Father: {fileID: 591907153}
-  m_RootOrder: 2
+  m_Father: {fileID: 1783494941}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -482, y: -199}
+  m_AnchoredPosition: {x: -316.38867, y: -139.34274}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453258785
@@ -343,8 +343,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 591907154}
-        m_TargetAssemblyTypeName: endGame, Assembly-CSharp
-        m_MethodName: ExitGame
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8324551015464687446, guid: e97453bed88c3aa4083a262e771dce4d, type: 3}
+  m_Sprite: {fileID: 9030919551629594427, guid: e97453bed88c3aa4083a262e771dce4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -428,7 +428,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.038586482, g: 0, b: 0.1981132, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -644,7 +644,6 @@ RectTransform:
   m_Children:
   - {fileID: 387617212}
   - {fileID: 1349750728}
-  - {fileID: 453258784}
   - {fileID: 922234141}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -661,11 +660,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591907149}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 776e7f6666336884490db31823ac7bf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ae94a586afea6a48ab4068f8ada319e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsText: {fileID: 0}
+  PauseScreen: {fileID: 0}
+  gameOverScreen: {fileID: 0}
+  HighscoreTextRecap: {fileID: 0}
+  ScoreTextRecap: {fileID: 0}
+  ScoreText: {fileID: 0}
 --- !u!1 &922234140
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,7 +701,7 @@ RectTransform:
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 591907153}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1044,7 +1049,7 @@ MonoBehaviour:
   textColor: {r: 0.6603756, g: 1, b: 0.08962262, a: 1}
   textFont: {fileID: 12800000, guid: 2b212049775e2aa4fa9eb7862888caf5, type: 3}
   delay: 0.1
-  delayBetweenLines: 3
+  delayBetweenLines: 1
   sound: {fileID: 8300000, guid: 1910735bcd65bb0419da132b733fb850, type: 3}
   characterSprite: {fileID: 21300000, guid: 0cd1b8a5ed64e104d9511b63143a1e13, type: 3}
   imageHolder: {fileID: 2003693060}
@@ -1261,6 +1266,7 @@ RectTransform:
   m_LocalScale: {x: 0.15360968, y: 0.89746124, z: 0}
   m_Children:
   - {fileID: 1215592417}
+  - {fileID: 453258784}
   m_Father: {fileID: 1349750728}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1285,7 +1291,7 @@ MonoBehaviour:
   textColor: {r: 0.6603756, g: 1, b: 0.08962262, a: 1}
   textFont: {fileID: 12800000, guid: 2b212049775e2aa4fa9eb7862888caf5, type: 3}
   delay: 0.1
-  delayBetweenLines: 3
+  delayBetweenLines: 1
   sound: {fileID: 8300000, guid: 1910735bcd65bb0419da132b733fb850, type: 3}
   characterSprite: {fileID: 21300000, guid: cd083228905a49046a66c2865912d4eb, type: 3}
   imageHolder: {fileID: 1215592418}
@@ -1428,7 +1434,7 @@ MonoBehaviour:
   textColor: {r: 0.49056602, g: 0.18280526, b: 0.457477, a: 1}
   textFont: {fileID: 12800000, guid: 3f9c1ab100b250b46b4e925399b7bc71, type: 3}
   delay: 0.1
-  delayBetweenLines: 3
+  delayBetweenLines: 1
   sound: {fileID: 8300000, guid: 6eea5e33d17f44842aadfbefa620b3a4, type: 3}
   characterSprite: {fileID: 21300000, guid: f11f458437cb70a44a45025b6b786279, type: 3}
   imageHolder: {fileID: 528737937}

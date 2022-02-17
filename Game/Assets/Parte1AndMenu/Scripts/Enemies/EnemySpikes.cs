@@ -10,7 +10,6 @@ public class EnemySpikes : MonoBehaviour
         if (collision.tag == "Player")
         {
             collision.GetComponent<Health>().TakeDamage(damage);
-            //PlayerPrefs.SetFloat("CurrentHealth", Manager.CassandraHealth);
         }
 
     }

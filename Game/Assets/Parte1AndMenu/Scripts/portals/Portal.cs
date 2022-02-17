@@ -5,7 +5,6 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
 
-    //bool teleport = false;
     public GameObject PortalObject;
     public GameObject Player;
 
@@ -18,11 +17,6 @@ public class Portal : MonoBehaviour
             StartCoroutine(Teleport());
             
         }
-        //else 
-           // if(teleport == true)
-        //{
-            //teleport = false;
-        //}
     }
 
 

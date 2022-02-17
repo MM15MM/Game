@@ -45,7 +45,7 @@ public class Health : MonoBehaviour
                     Destroy(gameObject, 2f);
                     AudioManager.instance.Play("Game Over");
                 }
-                //Dragon
+                //Dragon or enemy in general
                 if (GetComponentInParent<EnemyBehaviour>() != null)
                 {
                     GetComponentInParent<EnemyBehaviour>().enabled = false;
@@ -53,7 +53,7 @@ public class Health : MonoBehaviour
                         GetComponent<EnemyAttack>().enabled = false;
                     dead = true;
                     Destroy(gameObject, 1f);
-                    AudioManager.instance.Play("dragonDies");
+                    AudioManager.instance.Play("dragonDies");  //enemy dies
                     ScoreScript.instance.AddPoint();
 
                 }
@@ -73,7 +73,6 @@ public class Health : MonoBehaviour
     {
         Physics2D.IgnoreLayerCollision(7, 8, true);
         yield return new WaitForSeconds(3f);
-        //Physics2D.IgnoreLayerCollision(7, 8, false);
     }
 
 }
