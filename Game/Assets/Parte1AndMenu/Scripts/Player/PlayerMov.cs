@@ -66,7 +66,7 @@ public class PlayerMov : MonoBehaviour
 	{
 		//Cassandra attacks
 
-		var FiredBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);          //bullet should spawn in thecorrect position (bulletPos)
+		var FiredBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);          //bullet should spawn in the correct position (bulletPos)
 		FiredBullet.AddForce(bulletPos.up * bulletSpeed);
 		}
 	void FixedUpdate()

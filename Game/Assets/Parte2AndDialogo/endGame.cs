@@ -6,7 +6,9 @@ public class endGame : MonoBehaviour
 {
     public void ExitGame()
     {
+       
         Application.Quit();
     }
+
 }
 

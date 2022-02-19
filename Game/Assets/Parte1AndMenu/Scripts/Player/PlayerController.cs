@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
 	private void Awake()
 	{
-		//availableJumps = totalJumps;
+		availableJumps = totalJumps;
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 	    	availableJumps--;
 			m_Grounded = false;
-		}
+		     }
 			else
 		   if ( jump && m_Grounded)
 		    {
@@ -109,9 +109,6 @@ public class PlayerController : MonoBehaviour
 			m_Grounded = false;
 			}
 
-			// Add a vertical force to the player.
-			//m_Grounded = false;
-			//m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
 
 

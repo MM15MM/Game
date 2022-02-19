@@ -7,7 +7,7 @@ public class EndParte3 : MonoBehaviour
 {
     public GameObject RecapScreen;
     public Text HighscoreTextRecap;
-    public GameObject HighscoreText;
+    public Text ScoreTextRecap;
     public GameObject ScoreText;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,7 +15,7 @@ public class EndParte3 : MonoBehaviour
         if (collision.tag == "Player")
         {
             AudioManager.instance.Play("Teleport");
-            Invoke("Recap", 0.5f);
+            Invoke("Recap", 0.25f);
 
         }
 
@@ -26,9 +26,9 @@ public class EndParte3 : MonoBehaviour
     {
         Time.timeScale = 0;
         RecapScreen.SetActive(true);
-        ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
+        ScoreText.SetActive(false);
+        HighscoreTextRecap.text = "Highscore: " + PlayerPrefs.GetInt("highscore", 0).ToString();
+        ScoreTextRecap.text = "Score: " + PlayerPrefs.GetInt("score", 0).ToString();
 
-        if (ss.highscore < ss.score) ss.highscore = ss.score;
-        HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
     }
 }

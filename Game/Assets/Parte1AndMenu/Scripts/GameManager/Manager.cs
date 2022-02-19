@@ -7,19 +7,20 @@ public class Manager : MonoBehaviour
 {
     public static Manager instance;
 
+    [Header("Coins")]
     public static int numberOfCoins;  //number of coins
     public TextMeshProUGUI coinsText;
 
+    [Header("Screens")]
     public GameObject PauseScreen;
 
     public static bool gameOver;
     public GameObject gameOverScreen;
 
 
- 
+    [Header("Score Texts")]
     public Text HighscoreTextRecap;
-
-    public GameObject HighscoreText;
+    public Text ScoreTextRecap;
     public GameObject ScoreText; 
 
 
@@ -28,7 +29,7 @@ public class Manager : MonoBehaviour
         instance = this;
         Time.timeScale = 1;
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);
-        
+
         gameOver = false;
     }
 
@@ -37,20 +38,13 @@ public class Manager : MonoBehaviour
     {
         coinsText.text = numberOfCoins.ToString();
 
-        if(gameOver)
+        if (gameOver)
         {
             Time.timeScale = 0;
             gameOverScreen.SetActive(true);
-            HighscoreText.SetActive(false);
             ScoreText.SetActive(false);
-
-            ScoreScript ss = ScoreText.GetComponent<ScoreScript>();
-
-            if (ss.highscore < ss.score) ss.highscore = ss.score;
-            HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
-
-
-            //HighscoreTextRecap.text = "Highscore: " + ss.highscore.ToString();
+            ScoreTextRecap.text = "Score: " + PlayerPrefs.GetInt("score", 0).ToString();
+            HighscoreTextRecap.text = "Highscore: " + PlayerPrefs.GetInt("highscore", 0).ToString();
         }
 
     }
@@ -81,7 +75,6 @@ public class Manager : MonoBehaviour
 
     public void Reset()
     {
-        
         PlayerPrefs.SetInt("NumberOfCoins", 0);
         PlayerPrefs.SetInt("score", 0);
     }

@@ -46,7 +46,6 @@ public class EnemyHead : MonoBehaviour
             anim.SetTrigger("Destroy");
             Destroy(gameObject, 1f);
             collision.GetComponent<Health>().TakeDamage(damage);      //Cassandra is hurt or dies
-            //PlayerPrefs.SetFloat("CurrentHealth", Manager.CassandraHealth);
         }
         else
         {
