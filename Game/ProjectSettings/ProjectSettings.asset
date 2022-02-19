@@ -656,9 +656,9 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT;ENABLE_PLAYFABADMIN_API;ENABLE_PLAYFABSERVER_API
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;ENABLE_PLAYFABADMIN_API;MOBILE_INPUT
-    14: MOBILE_INPUT
+    4: CROSS_PLATFORM_INPUT
+    7: CROSS_PLATFORM_INPUT;ENABLE_PLAYFABADMIN_API
+    14: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
